@@ -1,0 +1,16 @@
+[{
+    "id": 1,
+    "name": "Cheatsheet"
+}, {
+    "id": 2,
+    "name": "Book"
+}, {
+    "id": 3,
+    "name": "Resource"
+}, {
+    "id": 4,
+    "name": "Package / Library"
+}, {
+    "id": 5,
+    "name": "Other"
+}]

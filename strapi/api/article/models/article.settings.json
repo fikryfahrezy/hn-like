@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articles",
+  "info": {
+    "name": "article"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "page": {
+      "type": "string",
+      "required": true,
+      "default": "/awesome/articles"
+    },
+    "slug": {
+      "type": "string",
+      "required": false
+    },
+    "description": {
+      "type": "text",
+      "required": true,
+      "default": "-"
+    },
+    "category": {
+      "model": "article-category",
+      "via": "articles"
+    },
+    "source": {
+      "model": "article-source",
+      "via": "articles"
+    },
+    "access": {
+      "model": "access",
+      "via": "articles"
+    }
+  }
+}

@@ -1,0 +1,299 @@
+{
+    "data": [{
+            "title": "graphcms",
+            "link": "https://graphcms.com/",
+            "page": "/awesome/teches",
+            "slug": "-",
+            "category": "Headless CMS",
+            "access": "public"
+        },
+        {
+            "title": "strapi",
+            "link": "https://strapi.io/",
+            "page": "/awesome/teches",
+            "slug": "-",
+            "category": "Headless CMS",
+            "access": "public"
+        },
+        {
+            "title": "KeystoneJS",
+            "link": "https://www.keystonejs.com/",
+            "page": "/awesome/teches",
+            "slug": "-",
+            "category": "Headless CMS",
+            "access": "public"
+        },
+        {
+            "title": "agility",
+            "link": "https://agilitycms.com/",
+            "page": "/awesome/teches",
+            "slug": "-",
+            "category": "Headless CMS",
+            "access": "public"
+        },
+        {
+            "title": "ghost",
+            "link": "https://ghost.org/",
+            "page": "/awesome/teches",
+            "slug": "-",
+            "category": "Headless CMS",
+            "access": "public"
+        },
+        {
+            "title": "CouchDB",
+            "link": "https://couchdb.apache.org/",
+            "page": "/awesome/teches",
+            "slug": "-",
+            "category": "Database",
+            "access": "public"
+        },
+        {
+            "title": "FAUNA",
+            "link": "https://fauna.com/",
+            "page": "/awesome/teches",
+            "slug": "-",
+            "category": "Database",
+            "access": "public"
+        },
+        {
+            "title": "HarperDB",
+            "link": "https://harperdb.io/",
+            "page": "/awesome/teches",
+            "slug": "-",
+            "category": "Database",
+            "access": "public"
+        },
+        {
+            "title": "HASURA",
+            "link": "https://hasura.io/",
+            "page": "/awesome/teches",
+            "slug": "-",
+            "category": "Database",
+            "access": "public"
+        },
+        {
+            "title": "orbitdb",
+            "link": "https://orbitdb.org/",
+            "page": "/awesome/teches",
+            "slug": "-",
+            "category": "Database",
+            "access": "public"
+        },
+        {
+            "title": "MariaDB",
+            "link": "https://mariadb.org/",
+            "page": "/awesome/teches",
+            "slug": "-",
+            "category": "Database",
+            "access": "public"
+        },
+        {
+            "title": "MySQL",
+            "link": "https://www.mysql.com/",
+            "page": "/awesome/teches",
+            "slug": "-",
+            "category": "Database",
+            "access": "public"
+        },
+        {
+            "title": "RAVENDB",
+            "link": "https://ravendb.net/",
+            "page": "/awesome/teches",
+            "slug": "-",
+            "category": "Database",
+            "access": "public"
+        },
+        {
+            "title": "PostgreSQL",
+            "link": "https://www.postgresql.org/",
+            "page": "/awesome/teches",
+            "slug": "-",
+            "category": "Database",
+            "access": "public"
+        },
+        {
+            "title": "pouchdb",
+            "link": "https://pouchdb.com/",
+            "page": "/awesome/teches",
+            "slug": "-",
+            "category": "Database",
+            "access": "public"
+        },
+        {
+            "title": "redis",
+            "link": "https://redis.io/",
+            "page": "/awesome/teches",
+            "slug": "-",
+            "category": "Database",
+            "access": "public"
+        },
+        {
+            "title": "RethinkDB",
+            "link": "https://rethinkdb.com/",
+            "page": "/awesome/teches",
+            "slug": "-",
+            "category": "Database",
+            "access": "public"
+        },
+        {
+            "title": "mongoDB",
+            "link": "https://www.mongodb.com/",
+            "page": "/awesome/teches",
+            "slug": "-",
+            "category": "Database",
+            "access": "public"
+        },
+        {
+            "title": "Gatsby JS",
+            "link": "https://www.gatsbyjs.com/",
+            "page": "/awesome/teches",
+            "slug": "-",
+            "category": "Web Front End Framework",
+            "access": "public"
+        },
+        {
+            "title": "React JS",
+            "link": "https://reactjs.org/",
+            "page": "/awesome/teches",
+            "slug": "-",
+            "category": "Web Front End Framework",
+            "access": "public"
+        },
+        {
+            "title": "Next JS",
+            "link": "https://nextjs.org/",
+            "page": "/awesome/teches",
+            "slug": "-",
+            "category": "Web Front End Framework",
+            "access": "public"
+        },
+        {
+            "title": "Preact JS",
+            "link": "https://preactjs.com/",
+            "page": "/awesome/teches",
+            "slug": "-",
+            "category": "Web Front End Framework",
+            "access": "public"
+        },
+        {
+            "title": "Express JS",
+            "link": "https://expressjs.com/",
+            "page": "/awesome/teches",
+            "slug": "-",
+            "category": "Web Back End Framework",
+            "access": "public"
+        },
+        {
+            "title": "fastify",
+            "link": "https://www.fastify.io/",
+            "page": "/awesome/teches",
+            "slug": "-",
+            "category": "Web Back End Framework",
+            "access": "public"
+        },
+        {
+            "title": "Nest js",
+            "link": "https://nestjs.com/",
+            "page": "/awesome/teches",
+            "slug": "-",
+            "category": "Web Back End Framework",
+            "access": "public"
+        },
+        {
+            "title": "koa js",
+            "link": "https://koajs.com/",
+            "page": "/awesome/teches",
+            "slug": "-",
+            "category": "Web Back End Framework",
+            "access": "public"
+        },
+        {
+            "title": "METEOR",
+            "link": "https://www.meteor.com/",
+            "page": "/awesome/teches",
+            "slug": "-",
+            "category": "Web Back End Framework",
+            "access": "public"
+        },
+        {
+            "title": "sails js",
+            "link": "https://sailsjs.com/",
+            "page": "/awesome/teches",
+            "slug": "-",
+            "category": "Web Back End Framework",
+            "access": "public"
+        },
+        {
+            "title": "hapi",
+            "link": "https://hapi.dev/",
+            "page": "/awesome/teches",
+            "slug": "-",
+            "category": "Web Back End Framework",
+            "access": "public"
+        },
+        {
+            "title": "Feathers JS",
+            "link": "https://feathersjs.com/",
+            "page": "/awesome/teches",
+            "slug": "-",
+            "category": "Web Back End Framework",
+            "access": "public"
+        },
+        {
+            "title": "LoopBack",
+            "link": "https://loopback.io/",
+            "page": "/awesome/teches",
+            "slug": "-",
+            "category": "Web Back End Framework",
+            "access": "public"
+        },
+        {
+            "title": "Can I Use",
+            "link": "https://caniuse.com/",
+            "page": "/awesome/teches",
+            "slug": "-",
+            "category": "Utility",
+            "access": "public"
+        },
+        {
+            "title": "Excalidraw",
+            "link": "https://excalidraw.com/",
+            "page": "/awesome/teches",
+            "slug": "-",
+            "category": "Utility",
+            "access": "public"
+        },
+        {
+            "title": "Lucidchart",
+            "link": "https://www.lucidchart.com/",
+            "page": "/awesome/teches",
+            "slug": "-",
+            "category": "Utility",
+            "access": "public"
+        },
+        {
+            "title": "Figma",
+            "link": "https://www.figma.com/",
+            "page": "/awesome/teches",
+            "slug": "-",
+            "category": "Utility",
+            "access": "public"
+        },
+        {
+            "title": "Notion",
+            "link": "https://www.notion.so/",
+            "page": "/awesome/teches",
+            "slug": "-",
+            "category": "Utility",
+            "access": "public"
+        },
+        {
+            "title": "RegExr",
+            "link": "https://regexr.com/",
+            "page": "/awesome/teches",
+            "slug": "-",
+            "category": "Utility",
+            "access": "public"
+        }
+    ]
+}

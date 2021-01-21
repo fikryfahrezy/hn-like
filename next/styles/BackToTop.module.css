@@ -1,0 +1,23 @@
+/* begin begin Back to Top button  */
+/* https://codepen.io/alexandr-kazakov/pen/yMRPOR?editors=1010 */
+.backToTop {
+  position: fixed;
+  bottom: 80px;
+  right: 40px;
+  z-index: 9999;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  background: #111;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 2px;
+  display: block;
+  border: none;
+}
+
+.backToTop:hover {
+  background: #444;
+}
+/* end begin Back to Top button  */

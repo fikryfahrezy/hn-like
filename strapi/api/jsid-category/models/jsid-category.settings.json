@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jsid_categories",
+  "info": {
+    "name": "jsid-category"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "jsids": {
+      "via": "category",
+      "collection": "jsid"
+    }
+  }
+}

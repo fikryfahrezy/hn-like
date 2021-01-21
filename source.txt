@@ -1,0 +1,12 @@
+Error: 'win32-x64' binaries cannot be used on the 'linux-x64' platform. 
+Please remove the 'node_modules/sharp/vendor' directory and run 'npm install'.
+https://github.com/AntonLukichev/node-imgoptimize/issues/16
+
+Other Error with PostgreSQL
+https://github.com/strapi/strapi/discussions/6352
+https://stackoverflow.com/questions/244243/how-to-reset-postgres-primary-key-sequence-when-it-falls-out-of-sync/
+https://stackoverflow.com/questions/3819292/reset-postgresql-primary-key-to-1
+https://stackoverflow.com/questions/36361860/change-sequence-name-in-postgresql
+https://github.com/strapi/strapi/issues/5671
+https://github.com/strapi/strapi/issues/3891
+https://github.com/strapi/strapi/issues/171

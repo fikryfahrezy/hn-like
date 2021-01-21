@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "devtos",
+  "info": {
+    "name": "devto"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "page": {
+      "type": "string",
+      "required": true,
+      "default": "/devtos"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text",
+      "required": true,
+      "default": "-"
+    },
+    "category": {
+      "model": "devto-category",
+      "via": "devtos"
+    },
+    "access": {
+      "model": "access",
+      "via": "devtos"
+    }
+  }
+}

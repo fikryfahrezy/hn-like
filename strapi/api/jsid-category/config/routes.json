@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/jsid-categories",
+      "handler": "jsid-category.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/jsid-categories/count",
+      "handler": "jsid-category.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/jsid-categories/:id",
+      "handler": "jsid-category.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/jsid-categories",
+      "handler": "jsid-category.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/jsid-categories/:id",
+      "handler": "jsid-category.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/jsid-categories/:id",
+      "handler": "jsid-category.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

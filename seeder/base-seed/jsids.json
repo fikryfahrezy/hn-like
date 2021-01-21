@@ -1,0 +1,467 @@
+{
+    "data": [{
+        "title": "Running headless Chromium in Azure Functions with Puppeteer and Playwright",
+        "link": "https://dev.to/azure/running-headless-chromium-in-azure-functions-with-puppeteer-and-playwright-2fgk",
+        "page": "/jsids",
+        "slug": "menjalankan-puppeteer-dan-playwright-di-azure-function",
+        "description": "Menjalankan Puppeteer dan Playwright di Azure Function",
+        "category": "Other",
+        "source": "Dev.to"
+    }, {
+        "title": "Creating visuals of your webpage with Puppeteer",
+        "link": "https://blog.logrocket.com/creating-visuals-of-your-webpage-with-puppeteer/",
+        "page": "/jsids",
+        "slug": "creating-visuals-of-your-webpage-with-puppeteer",
+        "description": "Latihan membuat screenshot atau visualisasi halaman web untuk UI/UX testing dengan menggunakan Puppeteer dan Node JS",
+        "category": "Package / Library",
+        "source": "LogRocket"
+    }, {
+        "title": "Fullstack JavaScript Microservice Web App in Minutes",
+        "link": "https://medium.com/@krawa76/fullstack-javascript-microservice-web-app-in-minutes-448c523a919b",
+        "page": "/jsids",
+        "slug": "fullstack-javascript-microservice-web-app-in-minutes",
+        "description": "Latihan sederhana membuat aplikasi fullstack JavaScript MERN dan deploy ke server",
+        "category": "Other",
+        "source": "Medium"
+    }, {
+        "title": "What's New in Mongoose 5.10: Improved Transactions",
+        "link": "http://thecodebarbarian.com/whats-new-in-mongoose-5-10-improved-transactions.html",
+        "page": "/jsids",
+        "slug": "whats-new-in-mongoose510-imporved-transactions",
+        "description": "Catatan rilis Mongoose 5.10 dimana ada perbaikan fungsi transaction",
+        "category": "Package / Library",
+        "source": "Other"
+    }, {
+        "title": "Learn Puppeteer & Playwright",
+        "link": "https://theheadless.dev/",
+        "page": "/jsids",
+        "slug": "learn-puppeteer-&-playwright",
+        "description": "Memperkenalkan The Headless, Web app yang berisi latihan cara menggunakan Puppeteer dan Playwright",
+        "category": "Other",
+        "source": "Other"
+    }, {
+        "title": "Yarn 2.2 🚅🌟 Dedupe, Faster, Lighter, ...",
+        "link": "https://dev.to/arcanis/yarn-2-2-dedupe-faster-lighter-ha5",
+        "page": "/jsids",
+        "slug": "Yarn-2.2-Dedupe-Faster-Lighter-...",
+        "description": "Catatan rilis Yarn 2.2 dengan banyak peningkatan dan perbaikan disana sini",
+        "category": "Other",
+        "source": "Dev.to"
+    }, {
+        "title": "Let's Debug a Node.js Application",
+        "link": "https://blog.heroku.com/debug-node-applications",
+        "page": "/jsids",
+        "slug": "lets-debug-nodejs-application",
+        "description": "Cara melakukan debugging aplikasi Node JS",
+        "category": "Node.js",
+        "source": "Other"
+    }, {
+        "title": "How to Add TypeScript to a JavaScript Project",
+        "link": "https://www.freecodecamp.org/news/how-to-add-typescript-to-a-javascript-project/",
+        "page": "/jsids",
+        "slug": "how-to-add-typescript-to-a-javascript-Project",
+        "description": "Latihan panjang menambahkan TypeScript ke dalam aplikasi web berbasis Javascript",
+        "category": "TypeScript",
+        "source": "freeCodeCamp"
+    }, {
+        "title": "Getting started with Bree.js",
+        "link": "https://blog.logrocket.com/getting-started-with-bree-js/",
+        "page": "/jsids",
+        "slug": "getting-started-with-breejs",
+        "description": "Latihan menggunakan Bree JS , library untuk membuat Job Scheduler di Node  JS backend dengan bantuan Worker Thread. Contoh kasus yang dibuat adalah mengirim Tweet Twitter dalam rentang waktu tertentu",
+        "category": "Package / Library",
+        "source": "LogRocket"
+    }, {
+        "title": "Building a Shopping Cart In Nodejs",
+        "link": "https://dev.to/suniljoshi19/unit-testing-react-components-using-enzyme-and-jest-testing-frameworks-2m4k",
+        "page": "/jsids",
+        "slug": "building-a-shopping-cart-in-nodejs",
+        "description": "Membuat alur logika Shopping Cart di Node JS",
+        "category": "Node.js",
+        "source": "Dev.to"
+    }, {
+        "title": "Visualize NodeJS Errors in Real Time with Llama Logs",
+        "link": "https://dev.to/bakenator/visualize-nodejs-errors-in-real-time-with-llama-logs-3c18",
+        "page": "/jsids",
+        "slug": "visualize-nodejs-errors-in-real-timewwith-llama-logs",
+        "description": "Menampilkan visualisasi kode yang error dari alur kerja aplikasi Node JS dengan Ilama Logging",
+        "category": "Node.js",
+        "source": "Dev.to"
+    }, {
+        "title": "When to use these Nodejs frameworks? Express, Koa, Nest, Socket.io, Meteor.js",
+        "link": "https://dev.to/tejaskaneriya/when-to-use-these-nodejs-frameworks-express-koa-nest-socket-io-meteor-js-3p63",
+        "page": "/jsids",
+        "slug": "when-to-use-these-nodejs-framework?-express-koa-nest-socketio-meteorjs",
+        "description": "Beberapa referensi framework backend Node JS seperti Express , Koa, Meteor, Nest , Sails , Socket IO , Totals, Hapi, Feathers , dan Loopback",
+        "category": "Package / Library",
+        "source": "Dev.to"
+    }, {
+        "title": "11 JavaScript and TypeScript Shorthands You Should Know",
+        "link": "https://blog.bitsrc.io/11-javascript-and-typescript-shorthands-you-should-know-690a002674e0",
+        "page": "/jsids",
+        "slug": "11-javascirpt-and-typescript-shorthands-you-should-know",
+        "description": "Beberapa pintasan snippets dalam menggunakan TypeScript Javascript",
+        "category": "Other",
+        "source": "Medium"
+    }, {
+        "title": "TypeScript: Data structures in 10 minutes.",
+        "link": "https://levelup.gitconnected.com/typescript-data-structures-in-10-minutes-4cd785272ad0",
+        "page": "/jsids",
+        "slug": "typsecript-data-structure-in-10-minutes",
+        "description": "Pengenalan struktur data di dalam TypeScript",
+        "category": "TypeScript",
+        "source": "Medium"
+    }, {
+        "title": "Linux Commands for Developers",
+        "link": "https://dev.to/ptuladhar3/linux-commands-for-developers-17j",
+        "page": "/jsids",
+        "slug": "Linux-Commands-for-Developers",
+        "description": "Daftar perintah atau Cheatsheet command Linux Terminal yang sangat penting",
+        "category": "Linux",
+        "source": "Dev.to"
+    }, {
+        "title": "GitLab CI/CD example with a dockerized ReactJS App",
+        "link": "https://dev.to/christianmontero/gitlab-ci-cd-example-with-a-dockerized-reactjs-app-1cda",
+        "page": "/jsids",
+        "slug": "-",
+        "description": "Konfigurasi aplikasi React JS dalam Docker dan dijalankan dalam Gitlab Pipeline untuk CI/CD",
+        "category": "Docker",
+        "source": "Dev.to"
+    }, {
+        "title": "How you can do continuous delivery with Vue, Docker, and Azure",
+        "link": "https://www.freecodecamp.org/news/how-you-can-do-continuous-delivery-with-vue-docker-and-azure-2f1e31fff832/",
+        "page": "/jsids",
+        "slug": "-",
+        "description": "Latihan deploy aplikasi Vue JS di dalam Docker ke layanan Azure",
+        "category": "Docker",
+        "source": "freeCodeCamp"
+    }, {
+        "title": "Vue Template - A curated list with free resources",
+        "link": "https://dev.to/sm0ke/vue-template-a-curated-list-with-free-resources-5a4n",
+        "page": "/jsids",
+        "slug": "-",
+        "description": "Beberapa referensi template dashboard dan web untuk Vue JS",
+        "category": "Vue",
+        "source": "Dev.to"
+    }, {
+        "title": "7 Tips For Building A Large Nuxt App",
+        "link": "https://vuejsdevelopers.com/2018/07/16/7-tips-large-nuxt-app-vue/",
+        "page": "/jsids",
+        "slug": "-",
+        "description": "Tips penting dalam membangun aplikasi web skala besar dengan Nuxt JS",
+        "category": "Vue",
+        "source": "Other"
+    }, {
+        "title": "Build a Bootstrap 4 & Vue App",
+        "link": "https://vuejsdevelopers.com/2020/07/29/bootstrap-vue/",
+        "page": "/jsids",
+        "slug": "-",
+        "description": "Latihan menggunakan Bootstrap Vue untuk membangun aplikasi web",
+        "category": "Vue",
+        "source": "Other"
+    }, {
+        "title": "Code Coverage for Vue Applications",
+        "link": "https://vuejsdevelopers.com/2020/07/20/code-coverage-vue-cypress/",
+        "page": "/jsids",
+        "slug": "-",
+        "description": "Membuat Code Coverage end to end testing dengan Cypress di Vue JS",
+        "category": "Vue",
+        "source": "Other"
+    }, {
+        "title": "Why Vue CLI?",
+        "link": "https://vuejsdevelopers.com/topics/vue-cli/",
+        "page": "/jsids",
+        "slug": "-",
+        "description": "Artikel tentang kelebihan penggunaan Vue CLI dan",
+        "category": "Vue",
+        "source": "Other"
+    }, {
+        "title": "Create Resizable Table Columns with Angular Directives",
+        "link": "https://bharathravi.com/posts/create-resizable-table-columns-with-angular-directives",
+        "page": "/jsids",
+        "slug": "-",
+        "description": "Membuat tabel yang ukuran kolomnya dapat diubah ubah di Angular",
+        "category": "Angular",
+        "source": "Other"
+    }, {
+        "title": "Beginner's guide to creating a Node.js server",
+        "link": "https://dev.to/lisahjung/beginner-s-guide-to-creating-a-node-js-server-3d0j",
+        "page": "/jsids",
+        "slug": "-",
+        "description": "Latihan dasar membuat backend API server dengan Node JS tanpa menggunakan framework .",
+        "category": "Node.js",
+        "source": "Dev.to"
+    }, {
+        "title": "Node.js Rest CRUD API with Postgres",
+        "link": "https://dev.to/rajandmr/node-js-rest-crud-api-with-postgres-213p",
+        "page": "/jsids",
+        "slug": "-",
+        "description": "Latihan menggunakan Express JS dengan PostgreSQL",
+        "category": "Node.js",
+        "source": "Dev.to"
+    }, {
+        "title": "Interview With Fastify Node.js Web Framework Co-Creator Matteo Collina",
+        "link": "https://www.infoq.com/articles/fastify-nodejs-web-framework-interview/",
+        "page": "/jsids",
+        "slug": "-",
+        "description": "Wawancara singkat dengan pembuat framework Fastify JS",
+        "category": "Other",
+        "source": "Other"
+    }, {
+        "title": "How to create a free Developer Blog in less than 10 minutes?",
+        "link": "https://dev.to/bobbyiliev/how-to-create-a-free-developer-blog-in-less-than-10-minutes-2mf8",
+        "page": "/jsids",
+        "slug": "-",
+        "description": "Membuat blog developer gratis dengan bantuan layanan DevDojo",
+        "category": "Other",
+        "source": "Dev.to"
+    }, {
+        "title": "[MP] Full-Stack Vue + Node",
+        "link": "https://courses.vuejsdevelopers.com/p/full-stack-vue-node",
+        "page": "/jsids",
+        "slug": "-",
+        "description": "Course premium Dari Anthony Gore tentang membuat aplikasi fullstack Javascript dengan MEVN Stack + Unit Testing",
+        "category": "Vue",
+        "source": "Other"
+    }, {
+        "title": "Beberapa referensi belajar Vue JS dari beberapa course online yang gratis dan berbayar",
+        "link": "https://medium.com/better-programming/10-resources-to-learn-vue-js-in-2020-c596e070772",
+        "page": "/jsids",
+        "slug": "-",
+        "description": "Beberapa referensi belajar Vue JS dari beberapa course online yang gratis dan berbayar",
+        "category": "Vue",
+        "source": "Medium"
+    }, {
+        "title": "Indonesia Postal Code App",
+        "link": "https://github.com/javascript-indonesias/kodepos-indonesia-code",
+        "page": "/jsids",
+        "slug": "-",
+        "description": "Memperkenalkan Kode Pos Indonesia, aplikasi web sederhana yang menampilkan daftar kode pos di Indonesia berdasarkan kata kunci pencarian tertentu dan daerah yang diinginkan.",
+        "category": "Other",
+        "source": "Other"
+    }, {
+        "title": "5 full-stack projects to add to your portfolio before 2020 ends 🤯",
+        "link": "https://dev.to/dailydevtips1/5-full-stack-projects-to-add-to-your-portfolio-before-2020-ends-42h3",
+        "page": "/jsids",
+        "slug": "-",
+        "description": "Referensi beberapa course dan sampel project gratis membuat aplikasi web modern dengan Javascript dan Node JS lengkap.",
+        "category": "JavaScript",
+        "source": "Dev.to"
+    }, {
+        "title": "Boilerplate with MERN Stack + Redux + JWT for registration, login and authentication of users with CRUD operations.",
+        "link": "https://dev.to/georgexx009/boilerplate-with-mern-stack-redux-jwt-for-registration-login-and-authentication-of-users-with-crud-operations-43io",
+        "page": "/jsids",
+        "slug": "-",
+        "description": "Referensi Boilerplate atau kerangka project untuk aplikasi MERN Stack",
+        "category": "React.js",
+        "source": "Dev.to"
+    }, {
+        "title": "How to Create a Next.js Starter to Easily Bootstrap a New React App",
+        "link": "https://www.freecodecamp.org/news/how-to-create-a-nextjs-starter-to-easily-bootstrap-a-new-react-app/",
+        "page": "/jsids",
+        "slug": "-",
+        "description": "Membuat template project Next JS lengkap dengan Bootstrap",
+        "category": "React.js",
+        "source": "Dev.to"
+    }, {
+        "title": "Going Jamstack with React, Serverless, and Airtable",
+        "link": "https://css-tricks.com/going-jamstack-with-react-serverless-and-airtable/",
+        "page": "/jsids",
+        "slug": "-",
+        "description": "Membuat aplikasi web JAMStack dengan React , Netlify, Dan Airtable",
+        "category": "React.js",
+        "source": "Other"
+    }, {
+        "title": "How To Deploy a Full-Stack MERN App with Heroku/Netlify",
+        "link": "https://dev.to/stlnick/how-to-deploy-a-full-stack-mern-app-with-heroku-netlify-ncb",
+        "page": "/jsids",
+        "slug": "-",
+        "description": "Latihan panjang melakukan deploy aplikasi MERN Stack ke Heroku dan Netlify",
+        "category": "React.js",
+        "source": "Dev.to"
+    }, {
+        "title": "How to deploy a React app to Firebase using GitHub Actions (step-by-step)",
+        "link": "https://levelup.gitconnected.com/how-to-deploy-a-react-app-to-firebase-using-github-actions-step-by-step-11367e0627d5",
+        "page": "/jsids",
+        "slug": "-",
+        "description": "Cara deploy aplikasi web React JS ke Firebase Hosting dengan Github Actions",
+        "category": "React.js",
+        "source": "Medium"
+    }, {
+        "title": "Node.js Monitoring eBook: The Complete Guide",
+        "link": "https://sematext.com/resources/nodejs-monitoring-ebook/",
+        "page": "/jsids",
+        "slug": "-",
+        "description": "Buku gratis tentang panduan memantau kinerja server Node JS dan logging",
+        "category": "Node.js",
+        "source": "Other"
+    }, {
+        "title": "🚀10 Trending projects on GitHub for web developers - 28th August 2020",
+        "link": "https://dev.to/iainfreestone/10-trending-projects-on-github-for-web-developers-28th-august-2020-55e7",
+        "page": "/jsids",
+        "slug": "-",
+        "description": "10 project Github yang sedang ramai dan naik daun bulan ini.",
+        "category": "Web Dev",
+        "source": "Dev.to"
+    }, {
+        "title": "EM vs REM",
+        "link": "https://youtu.be/8VvJhxGOU40",
+        "page": "/jsids",
+        "slug": "-",
+        "description": "Perbedaan antara satuan CSS em dan rem untuk jarak dan ukuran element",
+        "category": "HTML & CSS",
+        "source": "Other"
+    }, {
+        "title": "Selenium Automation Testing with Disabled JavaScript Settings; Is It Worth Your Time?",
+        "link": "https://www.lambdatest.com/blog/selenium-automation-testing-with-disabled-javascript/",
+        "page": "/jsids",
+        "slug": "-",
+        "description": "Menguji aplikasi web dengan mode pengujian tanpa Javascript , dengan bantuan Selenium",
+        "category": "JavaScript",
+        "source": "Other"
+    }, {
+        "title": "Bocoran HRD: Jangan Begini Kalau Wawancara Kerja dari channel Rencanamu",
+        "link": "https://www.youtube.com/watch?v=7kzB476xMDM",
+        "page": "/jsids",
+        "slug": "-",
+        "description": "Bocoran HRD: Jangan Begini Kalau Wawancara Kerja dari channel Rencanamu",
+        "category": "Other",
+        "source": "Other"
+    }, {
+        "title": "Ngelamar Kerja: Kegiatan Non-Akademis = Penting atau Enggak?",
+        "link": "https://www.youtube.com/watch?v=vgqSOdGl2mg",
+        "page": "/jsids",
+        "slug": "-",
+        "description": "Ngelamar Kerja: Kegiatan Non-Akademis = Penting atau Enggak?",
+        "category": "Other",
+        "source": "Other"
+    }, {
+        "title": "Kunci Jawaban Pertanyaan Interview Kerja: 'Perkenalkan Diri Kamu' (Job Hacks #15)",
+        "link": "https://www.youtube.com/watch?v=K_N5e6vGvAM",
+        "page": "/jsids",
+        "slug": "-",
+        "description": "Kunci Jawaban Pertanyaan Interview Kerja: 'Perkenalkan Diri Kamu' (Job Hacks #15)",
+        "category": "Other",
+        "source": "Other"
+    }, {
+        "title": "Kunci Jawaban Pertanyaan Interview Kerja: 'Kenapa Kamu Menginginkan Pekerjaan Ini?' (Job Hacks #20)",
+        "link": "https://www.youtube.com/watch?v=I-3k1m72oa4",
+        "page": "/jsids",
+        "slug": "-",
+        "description": "Kunci Jawaban Pertanyaan Interview Kerja: 'Kenapa Kamu Menginginkan Pekerjaan Ini?' (Job Hacks #20)",
+        "category": "Other",
+        "source": "Other"
+    }, {
+        "title": "Pertanyaan Interview 'Berapa ekspektasi gaji kamu?' (Job Hacks #10)",
+        "link": "https://www.youtube.com/watch?v=BGRQmiTKKg8",
+        "page": "/jsids",
+        "slug": "-",
+        "description": "Pertanyaan Interview 'Berapa ekspektasi gaji kamu?' (Job Hacks #10)",
+        "category": "Other",
+        "source": "Other"
+    }, {
+        "title": "5 Hal Yang Membuatmu Gagal Interview - (JobHacks 2.0 #01)",
+        "link": "https://www.youtube.com/watch?v=Bz4WLdZGHvM",
+        "page": "/jsids",
+        "slug": "-",
+        "description": "5 Hal Yang Membuatmu Gagal Interview - (JobHacks 2.0 #01)",
+        "category": "Other",
+        "source": "Other"
+    }, {
+        "title": "Build an Event App with Vue.js, Gridsome & Strapi.js",
+        "link": "https://youtu.be/vB6rmWCmANA",
+        "page": "/jsids",
+        "slug": "-",
+        "description": "Latihan panjang dari Traversy Media dan Gwen membuat aplikasi fullstack Javascript dengan Vue JS , Gridsome ,  Strapi CMS dan GraphQL dengan contoh kasus aplikasi manajemen acara atau daftar event",
+        "category": "Vue",
+        "source": "Dev.to"
+    }, {
+        "title": "Fetching and Visualizing Data in Vue using Axios and Chart.js",
+        "link": "https://dev.to/23subbhashit/fetching-and-visualizing-data-in-vue-using-axios-and-chart-js-k2h",
+        "page": "/jsids",
+        "slug": "-",
+        "description": "Latihan melakukan visualisasi data COVID19 dengan Vue JS dan Chart JS",
+        "category": "Vue",
+        "source": "Dev.to"
+    }, {
+        "title": "Creating HTTP Client Instance with Axios in Vue",
+        "link": "https://dev.to/erenyatkin/creating-http-client-instance-with-axios-in-vue-3an2",
+        "page": "/jsids",
+        "slug": "-",
+        "description": "Membuat instance baru untuk Axios HTTP dengan mudah",
+        "category": "Vue",
+        "source": "Dev.to"
+    }, {
+        "title": "Emancipate yourself from Vuex with Vue 3's Composition API",
+        "link": "https://dev.to/thomasferro/emancipate-yourself-from-vuex-with-vue-3-s-composition-api-3b9g",
+        "page": "/jsids",
+        "slug": "-",
+        "description": "Latihan menggunakan Composition API di Vue JS dan alternatif dari Vuex",
+        "category": "Vue",
+        "source": "Dev.to"
+    }, {
+        "title": "Google Drive API in node.js",
+        "link": "https://dev.to/kamalhossain/google-drive-api-in-node-js-3mnm",
+        "page": "/jsids",
+        "slug": "-",
+        "description": "Cara menghubungkan Google Drive API ke backend Node JS Express",
+        "category": "Other",
+        "source": "Dev.to"
+    }, {
+        "title": "Download and Delete via Google Drive API",
+        "link": "https://dev.to/kamalhossain/download-and-delete-via-google-drive-api-17i3",
+        "page": "/jsids",
+        "slug": "-",
+        "description": "Operasi data di Google Drive dengan bantuan Node JS",
+        "category": "Other",
+        "source": "Dev.to"
+    }, {
+        "title": "How to debug an infinite loop in Node.js production code",
+        "link": "https://blog.apify.com/how-to-debug-an-infinite-loop-in-node-js-production-code-9ec0e1442da0",
+        "page": "/jsids",
+        "slug": "-",
+        "description": "Debugging aplikasi Node JS yang mengalami infinite loop",
+        "category": "Node.js",
+        "source": "Other"
+    }, {
+        "title": "Today's rabbit hole: what is Event Driven Programming and how to code your own EventEmitter",
+        "link": "https://dev.to/petrussola/today-s-rabbit-hole-what-is-event-driven-programming-and-how-to-code-your-own-eventemitter-3g1h",
+        "page": "/jsids",
+        "slug": "-",
+        "description": "Latihan penting menggunakan Event Emitter di Node JS",
+        "category": "Node.js",
+        "source": "Dev.to"
+    }, {
+        "title": "Midway Serverless - A Node.js framework for Serverless - Interview with Harry Chen",
+        "link": "https://dev.to/js_midway/midway-serverless-a-node-js-framework-for-serverless-interview-with-harry-chen-1lea",
+        "page": "/jsids",
+        "slug": "-",
+        "description": "",
+        "category": "Node.js",
+        "source": "Other"
+    }, {
+        "title": "The Truth About Hoisting in JS",
+        "link": "https://levelup.gitconnected.com/the-truth-about-hoisting-in-js-8ac79a08a5f9",
+        "page": "/jsids",
+        "slug": "-",
+        "description": "Memahami apa itu Hoisting Dan Scope di Javascript",
+        "category": "JavaScript",
+        "source": "Medium"
+    }, {
+        "title": "Getting the path from a URL in JavaScript",
+        "link": "https://reactgo.com/javascript-get-path/",
+        "page": "/jsids",
+        "slug": "-",
+        "description": "Cara sederhana mengambil sub path dari URL dengan Javascript",
+        "category": "JavaScript",
+        "source": "Other"
+    }, {
+        "title": "Best way to lazy load images for maximum performance",
+        "link": "https://dev.to/prototyp/best-way-to-lazy-load-images-for-maximum-performance-27o1",
+        "page": "/jsids",
+        "slug": "-",
+        "description": "Cara sederhana menggunakan lazy loading pada gambar",
+        "category": "JavaScript",
+        "source": "Dev.to"
+    }]
+}

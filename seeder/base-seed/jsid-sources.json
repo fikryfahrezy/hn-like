@@ -1,0 +1,18 @@
+{
+    "data": [{
+            "name": "Dev.to"
+        },
+        {
+            "name": "freeCodeCamp"
+        },
+        {
+            "name": "LogRocket"
+        },
+        {
+            "name": "Medium"
+        },
+        {
+            "name": "Other"
+        }
+    ]
+}

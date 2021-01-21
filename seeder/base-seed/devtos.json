@@ -1,0 +1,395 @@
+{
+    "data": [{
+            "title": "Linux Commands for Developers",
+            "link": "https://dev.to/ptuladhar3/linux-commands-for-developers-17j",
+            "page": "/devtos",
+            "slug": "-",
+            "category": "Linux",
+            "access": "public"
+        },
+        {
+            "title": "When to use these Nodejs frameworks? Express, Koa, Nest, Socket.io, Meteor.js",
+            "link": "https://dev.to/tejaskaneriya/when-to-use-these-nodejs-frameworks-express-koa-nest-socket-io-meteor-js-3p63",
+            "page": "/devtos",
+            "slug": "-",
+            "category": "Other",
+            "access": "public"
+        },
+        {
+            "title": "How To Create A GitHub Profile README",
+            "link": "https://dev.to/m0nica/how-to-create-a-github-profile-readme-1paj",
+            "page": "/devtos",
+            "slug": "-",
+            "category": "Other",
+            "access": "public"
+        },
+        {
+            "title": "10 tiny helper scripts for devs!",
+            "link": "https://dev.to/benwinding/10-tiny-helper-scripts-for-devs-knb",
+            "page": "/devtos",
+            "slug": "-",
+            "category": "Other",
+            "access": "public"
+        },
+        {
+            "title": "Mastering Git Stash Workflow",
+            "link": "https://dev.to/yankee/mastering-git-stash-workflow-223",
+            "page": "/devtos",
+            "slug": "-",
+            "category": "Git",
+            "access": "public"
+        },
+        {
+            "title": "Stop Guessing: What is a JWT?",
+            "link": "https://dev.to/stevescruz/stop-guessing-what-is-a-jwt-47d9",
+            "page": "/devtos",
+            "slug": "-",
+            "category": "Package / Library",
+            "access": "public"
+        },
+        {
+            "title": "Flexbox Rocks!",
+            "link": "https://dev.to/jamesncox/flexbox-rocks-2bf9",
+            "page": "/devtos",
+            "slug": "-",
+            "category": "Web Front End",
+            "access": "public"
+        },
+        {
+            "title": "Best way to lazy load images for maximum performance",
+            "link": "https://dev.to/prototyp/best-way-to-lazy-load-images-for-maximum-performance-27o1",
+            "page": "/devtos",
+            "slug": "-",
+            "category": "Web Front End",
+            "access": "public"
+        },
+        {
+            "title": "Docker best practices with Node.js",
+            "link": "https://dev.to/nodepractices/docker-best-practices-with-node-js-4ln4",
+            "page": "/devtos",
+            "slug": "-",
+            "category": "Docker",
+            "access": "public"
+        },
+        {
+            "title": "Full Stack Serverless - Building a Real-time Chat App with GraphQL, CDK, AppSync, and React",
+            "link": "https://dev.to/dabit3/full-stack-serverless-building-a-real-time-chat-app-with-graphql-cdk-appsync-and-react-1dbb",
+            "page": "/devtos",
+            "slug": "-",
+            "category": "Other",
+            "access": "public"
+        },
+        {
+            "title": "Why is 32-bit called x86 and not x32?",
+            "link": "https://dev.to/alphaolomi/why-is-32-bit-called-x86-and-not-x32-46ae",
+            "page": "/devtos",
+            "slug": "-",
+            "category": "Other",
+            "access": "public"
+        },
+        {
+            "title": "Dark Mode in React using Hooks",
+            "link": "https://dev.to/rohit1508/dark-mode-in-react-using-hooks-2dd1",
+            "page": "/devtos",
+            "slug": "-",
+            "category": "React.js",
+            "access": "public"
+        },
+        {
+            "title": "Mastering Hard Parts of JavaScript: Asynchronicity I",
+            "link": "https://dev.to/ryanameri/mastering-hard-parts-of-javascript-asynchronicity-i-1b5",
+            "page": "/devtos",
+            "slug": "-",
+            "category": "JavaScript",
+            "access": "public"
+        },
+        {
+            "title": "A basic JavaScript course is NOT enough - Do these 5 things!",
+            "link": "https://dev.to/arnoldgee/a-basic-javascript-course-is-not-enough-do-these-5-things-5g9l",
+            "page": "/devtos",
+            "slug": "-",
+            "category": "JavaScript",
+            "access": "public"
+        },
+        {
+            "title": "🔥 Build a simple API with Node JS for beginners",
+            "link": "https://dev.to/tracycss/build-an-simple-api-with-node-js-for-beginners-oi",
+            "page": "/devtos",
+            "slug": "-",
+            "category": "Node.js",
+            "access": "public"
+        },
+        {
+            "title": "Stop only using console.log and use the built-in node debugger",
+            "link": "https://dev.to/nyxtom/stop-using-console-log-and-use-the-node-debugger-4402",
+            "page": "/devtos",
+            "slug": "-",
+            "category": "Node.js",
+            "access": "public"
+        },
+        {
+            "title": "Async Await from Beginner to Advanced Features Including Concurrency",
+            "link": "https://dev.to/papasanto/async-await-from-beginner-to-advanced-features-including-concurrency-16c",
+            "page": "/devtos",
+            "slug": "-",
+            "category": "JavaScript",
+            "access": "public"
+        },
+        {
+            "title": "react-ultimate-resume - 💼 🎨 a modern software developer resume built with React and JSONResume",
+            "link": "https://dev.to/thedamfr/react-ultimate-resume-a-modern-software-developer-resume-built-with-react-and-jsonresume-1pbj",
+            "page": "/devtos",
+            "slug": "-",
+            "category": "Other",
+            "access": "public"
+        },
+        {
+            "title": "Ever dreamed of a free and open-source resume builder that doesn't store your data? Meet Reactive Resume!",
+            "link": "https://dev.to/amruthpillai/ever-dreamed-of-a-free-and-open-source-resume-builder-that-doesn-t-store-your-data-meet-reactive-resume-1dpl",
+            "page": "/devtos",
+            "slug": "-",
+            "category": "Other",
+            "access": "public"
+        },
+        {
+            "title": "Examples of Syntactic Sugar in JavaScript",
+            "link": "https://dev.to/sophia_wyl/examples-of-syntactic-sugar-in-javascript-47bm",
+            "page": "/devtos",
+            "slug": "-",
+            "category": "JavaScript",
+            "access": "public"
+        },
+        {
+            "title": "All you need to know about CI/CD as Web Developer (DevOps)",
+            "link": "https://dev.to/joelbonetr/all-you-need-to-know-about-ci-cd-as-web-developer-1e19",
+            "page": "/devtos",
+            "slug": "-",
+            "category": "DevOps",
+            "access": "public"
+        },
+        {
+            "title": "The Difference Between Regular Functions and Arrow Functions",
+            "link": "https://dev.to/vandnakapoor19/the-difference-between-regular-functions-and-arrow-functions-j7d",
+            "page": "/devtos",
+            "slug": "-",
+            "category": "JavaScript",
+            "access": "public"
+        },
+        {
+            "title": "The Art of Centering",
+            "link": "https://dev.to/cjcon90/the-art-of-centering-3epe",
+            "page": "/devtos",
+            "slug": "-",
+            "category": "Web Front End",
+            "access": "public"
+        },
+        {
+            "title": "Best Github Repositories for Developers",
+            "link": "https://dev.to/jatinrao/best-github-repositories-for-developers-3735",
+            "page": "/devtos",
+            "slug": "-",
+            "category": "Other",
+            "access": "public"
+        },
+        {
+            "title": "Resources for Frontend Developers",
+            "link": "https://dev.to/jatinrao/resources-for-frontend-developers-1l9i",
+            "page": "/devtos",
+            "slug": "-",
+            "category": "Web Front End",
+            "access": "public"
+        },
+        {
+            "title": "Security in Node.JS and Express: The bare minimum - Part 3.",
+            "link": "https://dev.to/demetrakopetros/security-in-node-js-and-express-the-bare-minimum-part-3-54f3",
+            "page": "/devtos",
+            "slug": "-",
+            "category": "Node.js",
+            "access": "public"
+        },
+        {
+            "title": "React Performance Improvements: Make your React app Performant.",
+            "link": "https://dev.to/nikhilkumaran/react-performance-improvements-make-your-react-app-performant-12bm",
+            "page": "/devtos",
+            "slug": "-",
+            "category": "React.js",
+            "access": "public"
+        },
+        {
+            "title": "How to setup HTTPS locally with create-react-app",
+            "link": "https://dev.to/ganeshagrawal/how-to-setup-https-locally-with-create-react-app-e46",
+            "page": "/devtos",
+            "slug": "-",
+            "category": "React.js",
+            "access": "public"
+        },
+        {
+            "title": "Docker Fundamentals",
+            "link": "https://dev.to/skaytech/docker-fundamentals-2ibi",
+            "page": "/devtos",
+            "slug": "-",
+            "category": "Docker",
+            "access": "public"
+        },
+        {
+            "title": "⭐️🎀 JavaScript Visualized: Promises & Async/Await",
+            "link": "https://dev.to/lydiahallie/javascript-visualized-promises-async-await-5gke",
+            "page": "/devtos",
+            "slug": "-",
+            "category": "JavaScript",
+            "access": "public"
+        },
+        {
+            "title": "Practical Functional Programming in JavaScript - Error Handling",
+            "link": "https://dev.to/richytong/practical-functional-programming-in-javascript-error-handling-8g5",
+            "page": "/devtos",
+            "slug": "-",
+            "category": "JavaScript",
+            "access": "public"
+        },
+        {
+            "title": "35+ Free React templates and themes",
+            "link": "https://dev.to/davidepacilio/35-free-react-templates-and-themes-32ci",
+            "page": "/devtos",
+            "slug": "-",
+            "category": "React.js",
+            "access": "public"
+        },
+        {
+            "title": "Top JavaScript books to level up your game in JavaScript",
+            "link": "https://dev.to/srebalaji/top-javascript-books-to-level-up-your-game-in-javascript-55jf",
+            "page": "/devtos",
+            "slug": "-",
+            "category": "JavaScript",
+            "access": "public"
+        },
+        {
+            "title": "Please Stop Using Local Storage",
+            "link": "https://dev.to/rdegges/please-stop-using-local-storage-1i04",
+            "page": "/devtos",
+            "slug": "-",
+            "category": "Web Dev",
+            "access": "public"
+        },
+        {
+            "title": "LocalStorage vs Cookies: All You Need To Know About Storing JWT Tokens Securely in The Front-End",
+            "link": "https://dev.to/cotter/localstorage-vs-cookies-all-you-need-to-know-about-storing-jwt-tokens-securely-in-the-front-end-15id",
+            "page": "/devtos",
+            "slug": "-",
+            "category": "Web Dev",
+            "access": "public"
+        },
+        {
+            "title": "Minimalist Roadmap to Becoming a Full-Stack Developer",
+            "link": "https://dev.to/ericdouglas/minimalist-roadmap-to-becoming-a-full-stack-developer-259b",
+            "page": "/devtos",
+            "slug": "-",
+            "category": "Web Dev",
+            "access": "public"
+        },
+        {
+            "title": "15+ Best React.js Project Examples for 2020",
+            "link": "https://dev.to/creativetim_official/15-best-reactjs-project-examples-for-2020-cec",
+            "page": "/devtos",
+            "slug": "-",
+            "category": "React.js",
+            "access": "public"
+        },
+        {
+            "title": "The concepts that React tutorials usually skip over",
+            "link": "https://dev.to/icncsx/what-does-the-virtual-dom-look-like-4c7j",
+            "page": "/devtos",
+            "slug": "-",
+            "category": "React.js",
+            "access": "public"
+        },
+        {
+            "title": "Introduction to GraphQL",
+            "link": "https://dev.to/graphqleditor/introduction-to-graphql-2nj0",
+            "page": "/devtos",
+            "slug": "-",
+            "category": "GraphQL",
+            "access": "public"
+        },
+        {
+            "title": "Introduction to useRef Hook",
+            "link": "https://dev.to/dinhhuyams/introduction-to-useref-hook-3m7n",
+            "page": "/devtos",
+            "slug": "-",
+            "category": "React.js",
+            "access": "public"
+        },
+        {
+            "title": "Learn Data Structure & Algorithm in JavaScript | Part 01",
+            "link": "https://dev.to/edisonpebojots/data-structure-algorithm-chapter-01-2538",
+            "page": "/devtos",
+            "slug": "-",
+            "category": "JavaScript",
+            "access": "public"
+        },
+        {
+            "title": "CSS Best Practices and Advice for beginners",
+            "link": "https://dev.to/joelbonetr/css-and-scss-best-practices-3h6a",
+            "page": "/devtos",
+            "slug": "-",
+            "category": "Web Front End",
+            "access": "public"
+        },
+        {
+            "title": "Understanding ES6 with easy examples",
+            "link": "https://dev.to/ankitkumar/understanding-es6-with-easy-examples-2a8g",
+            "page": "/devtos",
+            "slug": "-",
+            "category": "JavaScript",
+            "access": "public"
+        },
+        {
+            "title": "Big-O For The Non-CS Degree - Part 1",
+            "link": "https://dev.to/travislramos/big-o-for-the-non-cs-degree-part-1-1i1e",
+            "page": "/devtos",
+            "slug": "-",
+            "category": "Other",
+            "access": "public"
+        },
+        {
+            "title": "Roadmap for Modern Frontend Web Development",
+            "link": "https://dev.to/ozanbolel/roadmap-for-modern-frontend-web-development-2od6",
+            "page": "/devtos",
+            "slug": "-",
+            "category": "Web Front End",
+            "access": "public"
+        },
+        {
+            "title": "Ultimate Road Map to Study JavaScript : Basics to Advanced",
+            "link": "https://dev.to/zinox9/road-map-to-study-javascript-4o3c",
+            "page": "/devtos",
+            "slug": "-",
+            "category": "JavaScript",
+            "access": "public"
+        },
+        {
+            "title": "Best free resources to learn React in 2020",
+            "link": "https://dev.to/areknawo/best-free-resources-to-learn-react-in-2020-591b",
+            "page": "/devtos",
+            "slug": "-",
+            "category": "React.js",
+            "access": "public"
+        },
+        {
+            "title": "Javascript Explained | Sketch-notes PART1",
+            "link": "https://dev.to/comscience/javascript-explained-sketchnotes-part1-2jgj",
+            "page": "/devtos",
+            "slug": "-",
+            "category": "JavaScript",
+            "access": "public"
+        },
+        {
+            "title": "GitLab CI/CD example with a dockerized ReactJS App",
+            "link": "https://dev.to/christianmontero/gitlab-ci-cd-example-with-a-dockerized-reactjs-app-1cda",
+            "page": "/devtos",
+            "slug": "-",
+            "category": "React.js",
+            "access": "public"
+        }
+    ]
+}

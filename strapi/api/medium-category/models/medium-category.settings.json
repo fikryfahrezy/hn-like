@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "medium_categories",
+  "info": {
+    "name": "medium-category"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "mediums": {
+      "via": "category",
+      "collection": "medium"
+    }
+  }
+}

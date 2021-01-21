@@ -1,0 +1,732 @@
+{
+    "data": [{
+            "title": "Google JavaScript Style Guide",
+            "link": "https://google.github.io/styleguide/jsguide.html",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "JavaScript",
+            "source": "Other",
+            "access": "public"
+        },
+        {
+            "title": "How JavaScript Works: Under the Hood of the V8 Engine",
+            "link": "https://www.freecodecamp.org/news/javascript-under-the-hood-v8",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "JavaScript",
+            "source": "freeCodeCamp",
+            "access": "public"
+        },
+        {
+            "title": "The complexity of simple algorithms and data structures in JS",
+            "link": "https://www.freecodecamp.org/news/the-complexity-of-simple-algorithms-and-data-structures-in-javascript-11e25b29de1e/",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "JavaScript",
+            "source": "freeCodeCamp",
+            "access": "public"
+        },
+        {
+            "title": "Async Generators and Async Iteration in Node.js",
+            "link": "https://alanstorm.com/async-generators-and-async-iteration-in-node-js/",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "JavaScript",
+            "source": "Other",
+            "access": "public"
+        },
+        {
+            "title": "Callback Hell",
+            "link": "http://callbackhell.com/",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "JavaScript",
+            "source": "Other",
+            "access": "public"
+        },
+        {
+            "title": "Using async/await in ExpressJS middlewares",
+            "link": "https://www.acuriousanimal.com/blog/2018/03/15/express-async-middleware",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "JavaScript",
+            "source": "Other",
+            "access": "public"
+        },
+        {
+            "title": "JavaScript Interview Questions",
+            "link": "https://mindmajix.com/javascript-interview-questions",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "JavaScript",
+            "source": "Other",
+            "access": "public"
+        },
+        {
+            "title": "Functional Programming Paradigm in JavaScript",
+            "link": "https://hackernoon.com/functional-programming-paradigm-in-javascript-km173u4i",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "JavaScript",
+            "source": "Hacker Noon",
+            "access": "public"
+        },
+        {
+            "title": "Top 10 JavaScript Hack for Optimized Performance",
+            "link": "https://ronak.hashnode.dev/top-10-javascript-hack-for-optimized-performance-cjwumvcls000kt8s1x7x1k5ph",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "JavaScript",
+            "source": "Other",
+            "access": "public"
+        },
+        {
+            "title": "Better Error Handling In NodeJS With Error Classes",
+            "link": "https://www.smashingmagazine.com/2020/08/error-handling-nodejs-error-classes/",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "JavaScript",
+            "source": "Other",
+            "access": "public"
+        },
+        {
+            "title": "Cleaner Code with Async / Await Tutorial",
+            "link": "https://khalilstemmler.com/articles/async-return-values-tutorial/",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "JavaScript",
+            "source": "Other",
+            "access": "public"
+        },
+        {
+            "title": "Understand the concept of the Callback, Promise and Async/Await in JavaScript",
+            "link": "https://morioh.com/p/384c0a22394b",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "JavaScript",
+            "source": "Other",
+            "access": "public"
+        },
+        {
+            "title": "A Hands on Guide to Event Loops, Child Processes, and Worker Threads in Node.Js",
+            "link": "chrome://bookmarks/?id=186",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "Node.js",
+            "source": "freeCodeCamp",
+            "access": "public"
+        },
+        {
+            "title": "Let's Debug a Node.js Application",
+            "link": "https://blog.heroku.com/debug-node-applications",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "Node.js",
+            "source": "Other",
+            "access": "public"
+        },
+        {
+            "title": "How to Debug Node.js Segmentation Faults",
+            "link": "https://httptoolkit.tech/blog/how-to-debug-node-segfaults",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "Node.js",
+            "source": "Other",
+            "access": "public"
+        },
+        {
+            "title": "An introduction to functional programming",
+            "link": "https://codewords.recurse.com/issues/one/an-introduction-to-functional-programming",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "Programming",
+            "source": "Other",
+            "access": "public"
+        },
+        {
+            "title": "How to become a pro with React setState() in 10 minutes",
+            "link": "https://www.freecodecamp.org/news/get-pro-with-react-setstate-in-10-minutes-d38251d1c781/",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "React.js",
+            "source": "freeCodeCamp",
+            "access": "public"
+        },
+        {
+            "title": "How to make your React app fully functional, fully reactive, and able to handle all those crazy…",
+            "link": "https://www.freecodecamp.org/news/how-to-make-your-react-app-fully-functional-fully-reactive-and-able-to-handle-all-those-crazy-e5da8e7dac10/",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "React.js",
+            "source": "freeCodeCamp",
+            "access": "public"
+        },
+        {
+            "title": "React Binding Patterns: 5 Approaches for Handling `this",
+            "link": "https://www.freecodecamp.org/news/react-binding-patterns-5-approaches-for-handling-this-92c651b5af56/",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "React.js",
+            "source": "freeCodeCamp",
+            "access": "public"
+        },
+        {
+            "title": "This is why we need to bind event handlers in Class Components in React",
+            "link": "https://www.freecodecamp.org/news/this-is-why-we-need-to-bind-event-handlers-in-class-components-in-react-f7ea1a6f93eb/",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "React.js",
+            "source": "freeCodeCamp",
+            "access": "public"
+        },
+        {
+            "title": "React Security",
+            "link": "https://reactsecurity.io/",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "React.js",
+            "source": "Other",
+            "access": "public"
+        },
+        {
+            "title": "useEffect(fn, []) is not the new componentDidMount()",
+            "link": "https://reacttraining.com/blog/useEffect-is-not-the-new-componentDidMount/",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "React.js",
+            "source": "Other",
+            "access": "public"
+        },
+        {
+            "title": "8 ways to deploy a React app for free",
+            "link": "https://blog.logrocket.com/8-ways-to-deploy-a-react-app-for-free/",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "React.js",
+            "source": "LogRocket",
+            "access": "public"
+        },
+        {
+            "title": "GraphQL Server Basics: GraphQL Schemas, TypeDefs & Resolvers Explained",
+            "link": "https://www.prisma.io/blog/graphql-server-basics-the-schema-ac5e2950214e",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "GraphQL",
+            "source": "Other",
+            "access": "public"
+        },
+        {
+            "title": "A re-introduction to JavaScript (JS tutorial)",
+            "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "JavaScript",
+            "source": "MDN Web Docs",
+            "access": "public"
+        },
+        {
+            "title": "Natively Format JavaScript Numbers",
+            "link": "https://elijahmanor.com/format-js-numbers",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "JavaScript",
+            "source": "Other",
+            "access": "public"
+        },
+        {
+            "title": "Introduction to Node.js",
+            "link": "https://nodejs.dev/learn",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "Node.js",
+            "source": "Other",
+            "access": "public"
+        },
+        {
+            "title": "Scheduling Cron Jobs in Node.js with Node-Cron",
+            "link": "https://blog.sabinthedev.com/scheduling-cron-jobs-in-nodejs-with-node-cron",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "Node.js",
+            "source": "Other",
+            "access": "public"
+        },
+        {
+            "title": "HOW TO STREAM FILE DOWNLOADS IN NODE.JS WITH GOT",
+            "link": "https://philna.sh/blog/2020/08/06/how-to-stream-file-downloads-in-Node-js-with-got/",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "Node.js",
+            "source": "Other",
+            "access": "public"
+        },
+        {
+            "title": "Simple Node.js Proxy",
+            "link": "https://davidwalsh.name/simple-node-js-proxy",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "Node.js",
+            "source": "Other",
+            "access": "public"
+        },
+        {
+            "title": "Progressive web apps (PWAs)",
+            "link": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "PWA",
+            "source": "MDN Web Docs",
+            "access": "public"
+        },
+        {
+            "title": "Web app manifests",
+            "link": "https://developer.mozilla.org/en-US/docs/Web/Manifest",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "PWA",
+            "source": "MDN Web Docs",
+            "access": "public"
+        },
+        {
+            "title": "Building a PWA at Google, part 1",
+            "link": "https://web.dev/building-a-pwa-at-google-part-1/",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "PWA",
+            "source": "Web.dev",
+            "access": "public"
+        },
+        {
+            "title": "Progressively enhance your Progressive Web App",
+            "link": "https://web.dev/progressively-enhance-your-pwa/",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "PWA",
+            "source": "Web.dev",
+            "access": "public"
+        },
+        {
+            "title": "Progressive Web Apps",
+            "link": "https://web.dev/progressive-web-apps/",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "PWA",
+            "source": "Web.dev",
+            "access": "public"
+        },
+        {
+            "title": "Model Shell Aplikasi",
+            "link": "https://developers.google.com/web/fundamentals/architecture/app-shell",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "PWA",
+            "source": "Google Developer",
+            "access": "public"
+        },
+        {
+            "title": "The Fullstack Tutorial for GraphQL",
+            "link": "https://www.howtographql.com/",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "GraphQL",
+            "source": "Other",
+            "access": "public"
+        },
+        {
+            "title": "Content Security Policy (CSP)",
+            "link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "Web Dev",
+            "source": "MDN Web Docs",
+            "access": "public"
+        },
+        {
+            "title": "Cross-Origin Resource Sharing (CORS)",
+            "link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "Web Dev",
+            "source": "MDN Web Docs",
+            "access": "public"
+        },
+        {
+            "title": "HTTP headers",
+            "link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "Web Dev",
+            "source": "MDN Web Docs",
+            "access": "public"
+        },
+        {
+            "title": "Intersection Observer API",
+            "link": "https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "Web Dev",
+            "source": "MDN Web Docs",
+            "access": "public"
+        },
+        {
+            "title": "Request",
+            "link": "https://developer.mozilla.org/en-US/docs/Web/API/Request",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "Web Dev",
+            "source": "MDN Web Docs",
+            "access": "public"
+        },
+        {
+            "title": "Service Worker API",
+            "link": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "Web Dev",
+            "source": "MDN Web Docs",
+            "access": "public"
+        },
+        {
+            "title": "Introducing the MDN Web Docs Front-end developer learning pathway",
+            "link": "https://hacks.mozilla.org/2020/06/introducing-the-mdn-web-docs-front-end-developer-learning-pathway/",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "Web Dev",
+            "source": "MDN Hacks",
+            "access": "public"
+        },
+        {
+            "title": "Introducing Background Sync",
+            "link": "https://developers.google.com/web/updates/2015/12/background-sync",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "Web Dev",
+            "source": "Google Developer",
+            "access": "public"
+        },
+        {
+            "title": "Understand JavaScript SEO basics",
+            "link": "https://developers.google.com/search/docs/guides/javascript-seo-basics",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "Web Dev",
+            "source": "Google Developer",
+            "access": "public"
+        },
+        {
+            "title": "Web Push Notifications: Timely, Relevant, and Precise",
+            "link": "https://developers.google.com/web/fundamentals/push-notifications/",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "Web Dev",
+            "source": "Google Developer",
+            "access": "public"
+        },
+        {
+            "title": "Reading and writing files and directories with the browser-nativefs library",
+            "link": "https://web.dev/browser-nativefs/",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "Web Dev",
+            "source": "Web.dev",
+            "access": "public"
+        },
+        {
+            "title": "Richer offline experiences with the Periodic Background Sync API",
+            "link": "https://web.dev/periodic-background-sync/",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "Web Dev",
+            "source": "Web.dev",
+            "access": "public"
+        },
+        {
+            "title": "Understanding Cross-Site Resource Sharing (CORS)",
+            "link": "https://academind.com/learn/web-dev/cross-site-resource-sharing-cors/",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "Web Dev",
+            "source": "Academind",
+            "access": "public"
+        },
+        {
+            "title": "XSS - localStorage vs Cookies",
+            "link": "https://academind.com/learn/web-dev/cross-site-resource-sharing-cors/",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "Web Dev",
+            "source": "Academind",
+            "access": "public"
+        },
+        {
+            "title": "XSS - What are Cross-Site Scripting Attacks",
+            "link": "https://academind.com/learn/javascript/xss-cross-site-scripting-attacks/",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "Web Dev",
+            "source": "Academind",
+            "access": "public"
+        },
+        {
+            "title": "avaScript URL Encode Example – How to Use encodeURIcomponent() and encodeURI()",
+            "link": "https://www.freecodecamp.org/news/javascript-url-encode-example-how-to-use-encodeuricomponent-and-encodeuri/",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "Web Dev",
+            "source": "freeCodeCamp",
+            "access": "public"
+        },
+        {
+            "title": "How to Go from Junior Developer to Mid-level Developer",
+            "link": "https://www.freecodecamp.org/news/how-to-go-from-junior-developer-to-mid-level-developer/",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "Web Dev",
+            "source": "freeCodeCamp",
+            "access": "public"
+        },
+        {
+            "title": "Security Best Practices for Node.js",
+            "link": "https://blog.appsignal.com/2020/08/12/security-best-practices-for-nodejs.html",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "Web Dev",
+            "source": "Other",
+            "access": "public"
+        },
+        {
+            "title": "Using ES modules in browsers with import-maps",
+            "link": "https://blog.logrocket.com/es-modules-in-browsers-with-import-maps/",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "Web Dev",
+            "source": "LogRocket",
+            "access": "public"
+        },
+        {
+            "title": "JavaScript Modules in 2020",
+            "link": "https://www.carlrippon.com/javascript-modules-in-2020/",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "Web Dev",
+            "source": "Other",
+            "access": "public"
+        },
+        {
+            "title": "JavaScript Cookies vs Local Storage vs Session Storage",
+            "link": "https://blog.webdevsimplified.com/2020-08/cookies-localStorage-sessionStorage/",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "Web Dev",
+            "source": "Other",
+            "access": "public"
+        },
+        {
+            "title": "A Smashing Guide To The World Of Search Engine Optimization",
+            "link": "https://www.smashingmagazine.com/smashing-guide-search-engine-optimization/",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "Web Dev",
+            "source": "Other",
+            "access": "public"
+        },
+        {
+            "title": "ServiceWorker Cookbook",
+            "link": "https://serviceworke.rs/",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "Web Dev",
+            "source": "Mozilla",
+            "access": "public"
+        },
+        {
+            "title": "Cookies vs Localstorage for sessions – everything you need to know",
+            "link": "https://supertokens.io/blog/cookies-vs-localstorage-for-sessions-everything-you-need-to-know",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "Web Dev",
+            "source": "Other",
+            "access": "public"
+        },
+        {
+            "title": "Please Stop Using Local Storage",
+            "link": "https://www.rdegges.com/2018/please-stop-using-local-storage/",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "Web Dev",
+            "source": "Other",
+            "access": "public"
+        },
+        {
+            "title": "Search the Largest API Directory on the Web",
+            "link": "https://www.programmableweb.com/apis/directory",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "Web Dev",
+            "source": "Other",
+            "access": "public"
+        },
+        {
+            "title": "Service Worker Sample: Custom Offline Page Sample",
+            "link": "https://googlechrome.github.io/samples/service-worker/custom-offline-page/index.html",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "Web Dev",
+            "source": "Other",
+            "access": "public"
+        },
+        {
+            "title": "A free identity for developers on the web",
+            "link": "https://thedev.id/",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "Web Dev",
+            "source": "Other",
+            "access": "public"
+        },
+        {
+            "title": "Web Push: Data Encryption Test Page",
+            "link": "https://jrconlin.github.io/WebPushDataTestPage/",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "Web Dev",
+            "source": "Other",
+            "access": "public"
+        },
+        {
+            "title": "The Kubernetes Handbook",
+            "link": "https://www.freecodecamp.org/news/the-kubernetes-handbook/",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "Kubernetes",
+            "source": "freeCodeCamp",
+            "access": "public"
+        },
+        {
+            "title": "The Docker Handbook",
+            "link": "https://www.freecodecamp.org/news/the-docker-handbook/",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "Docker",
+            "source": "freeCodeCamp",
+            "access": "public"
+        },
+        {
+            "title": "15 Git tips to improve your workflow",
+            "link": "https://about.gitlab.com/blog/2020/04/07/15-git-tips-improve-workflow/",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "Git",
+            "source": "GitLab",
+            "access": "public"
+        },
+        {
+            "title": "How to Delete a Git Branch Both Locally and Remotely",
+            "link": "https://www.freecodecamp.org/news/how-to-delete-a-git-branch-both-locally-and-remotely/",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "Git",
+            "source": "freeCodeCamp",
+            "access": "public"
+        },
+        {
+            "title": "The Best Git Tutorials",
+            "link": "https://www.freecodecamp.org/news/best-git-tutorial/",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "Git",
+            "source": "freeCodeCamp",
+            "access": "public"
+        },
+        {
+            "title": "How To Unstage Files on Git",
+            "link": "https://devconnected.com/how-to-unstage-files-on-git/",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "Git",
+            "source": "Other",
+            "access": "public"
+        },
+        {
+            "title": "How to Set up Nodemailer with Gmail",
+            "link": "https://blog.mailtrap.io/nodemailer-gmail/",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "Other",
+            "source": "Other",
+            "access": "public"
+        },
+        {
+            "title": "SQL Operators Tutorial – Bitwise, Comparison, Arithmetic, and Logical Operator Query Examples",
+            "link": "https://www.freecodecamp.org/news/sql-operators-tutorial/",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "SQL",
+            "source": "freeCodeCamp",
+            "access": "public"
+        },
+        {
+            "title": "An Introduction to CSS Grid Layout (with Examples)",
+            "link": "https://www.freecodecamp.org/news/intro-to-css-grid-layout/",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "HTML & CSS",
+            "source": "freeCodeCamp",
+            "access": "public"
+        },
+        {
+            "title": "Flexbox vs Grid - How to Build the Most Common HTML Layouts",
+            "link": "https://www.freecodecamp.org/news/flexbox-vs-grid-how-to-build-the-most-common-html-layouts/",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "HTML & CSS",
+            "source": "freeCodeCamp",
+            "access": "public"
+        },
+        {
+            "title": "HTML Center Text – How to CSS Vertical Align a Div",
+            "link": "https://www.freecodecamp.org/news/html-center-text-how-to-css-vertical-align-a-div/",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "HTML & CSS",
+            "source": "freeCodeCamp",
+            "access": "public"
+        },
+        {
+            "title": "Self-hosted fonts vs. Google Fonts API",
+            "link": "https://blog.logrocket.com/self-hosted-fonts-vs-google-fonts-api/",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "HTML & CSS",
+            "source": "LogRocket",
+            "access": "public"
+        },
+        {
+            "title": "Keeping the screen awake with the Screen Wake Lock API",
+            "link": "https://media-codings.com/articles/keeping-the-screen-awake-with-the-screen-wake-lock-api",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "HTML & CSS",
+            "source": "Other",
+            "access": "public"
+        },
+        {
+            "title": "Here's the resume I used to get a job at Google as a software engineer.",
+            "link": "https://www.freecodecamp.org/news/heres-the-resume-i-used-to-get-a-job-at-google-as-a-software-engineer-26516526f29a/",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "Other",
+            "source": "Other",
+            "access": "public"
+        },
+        {
+            "title": "SameSite cookies explained",
+            "link": "https://web.dev/samesite-cookies-explained/",
+            "page": "/awesome/articles",
+            "slug": "-",
+            "category": "Web Dev",
+            "source": "Web.dev",
+            "access": "public"
+        }
+    ]
+}

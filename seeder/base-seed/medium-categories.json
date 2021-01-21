@@ -1,0 +1,42 @@
+{
+    "data": [{
+            "name": "Node.js"
+        },
+        {
+            "name": "JavaScript"
+        },
+        {
+            "name": "Docker"
+        },
+        {
+            "name": "Package / Library"
+        },
+        {
+            "name": "Web Front End"
+        },
+        {
+            "name": "Web Dev"
+        },
+        {
+            "name": "UI / UX"
+        },
+        {
+            "name": "React.js"
+        },
+        {
+            "name": "Git"
+        },
+        {
+            "name": "PWA"
+        },
+        {
+            "name": "Framework"
+        },
+        {
+            "name": "Deno"
+        },
+        {
+            "name": "Other"
+        }
+    ]
+}

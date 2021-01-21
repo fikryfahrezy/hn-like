@@ -1,0 +1,10 @@
+.searchItem {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0.1rem;
+  align-self: flex-end;
+}
+
+.label {
+  text-transform: capitalize;
+}

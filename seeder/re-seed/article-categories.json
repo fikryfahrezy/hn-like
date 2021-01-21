@@ -1,0 +1,40 @@
+[{
+    "id": 1,
+    "name": "JavaScript"
+}, {
+    "id": 2,
+    "name": "React.js"
+}, {
+    "id": 3,
+    "name": "Node.js"
+}, {
+    "id": 4,
+    "name": "GraphQL"
+}, {
+    "id": 5,
+    "name": "Web Dev"
+}, {
+    "id": 6,
+    "name": "Kubernetes"
+}, {
+    "id": 7,
+    "name": "PWA"
+}, {
+    "id": 8,
+    "name": "Programming"
+}, {
+    "id": 9,
+    "name": "Docker"
+}, {
+    "id": 10,
+    "name": "HTML & CSS"
+}, {
+    "id": 11,
+    "name": "SQL"
+}, {
+    "id": 12,
+    "name": "Git"
+}, {
+    "id": 13,
+    "name": "Other"
+}]

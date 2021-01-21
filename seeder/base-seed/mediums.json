@@ -1,0 +1,480 @@
+{
+    "data": [{
+            "title": "Fullstack JavaScript Microservice Web App in Minutes",
+            "link": "https://medium.com/@krawa76/fullstack-javascript-microservice-web-app-in-minutes-448c523a919b",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "Other",
+            "access": "public"
+        },
+        {
+            "title": "Phases of the Node JS Event Loop",
+            "link": "https://medium.com/@kunaltandon.kt/process-nexttick-vs-setimmediate-vs-settimeout-explained-wrt-different-event-loop-phases-c0506b12921d",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "Node.js",
+            "access": "public"
+        },
+        {
+            "title": "How to Implement a Simple Message Queue in Node.js",
+            "link": "https://medium.com/swlh/how-to-implement-a-simple-message-queue-in-node-js-ee52e4ad6615",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "Node.js",
+            "access": "public"
+        },
+        {
+            "title": "How to Change Node.js Version Between Projects Using NVM",
+            "link": "https://medium.com/better-programming/how-to-change-node-js-version-between-projects-using-nvm-3ad2416bda7e",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "Node.js",
+            "access": "public"
+        },
+        {
+            "title": "Node.js, lots of ways to block your event-loop (and how to avoid it)",
+            "link": "https://medium.com/voodoo-engineering/node-js-lots-of-ways-to-block-your-event-loop-and-how-to-avoid-it-b41f41deecf5",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "Node.js",
+            "access": "public"
+        },
+        {
+            "title": "A year with JavaScript: 10 pro things I learned",
+            "link": "https://medium.com/js-dojo/a-year-with-javascript-10-things-i-learned-apart-from-actually-coding-2221b9a36c18",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "JavaScript",
+            "access": "public"
+        },
+        {
+            "title": "Clustering in NodeJs — Performance Optimization — Part I",
+            "link": "https://medium.com/tech-tajawal/clustering-in-nodejs-utilizing-multiple-processor-cores-75d78aeb0f4f",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "Node.js",
+            "access": "public"
+        },
+        {
+            "title": "Connect docker and MySQL in right way",
+            "link": "https://medium.com/@rauf.rahmancz/connect-docker-and-mysql-in-right-way-95602f833cb0",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "Docker",
+            "access": "public"
+        },
+        {
+            "title": "6 Event Driven Architecture Patterns — Part 2",
+            "link": "https://medium.com/wix-engineering/6-event-driven-architecture-patterns-part-2-455cc73b22e1",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "Other",
+            "access": "public"
+        },
+        {
+            "title": "How Does JavaScript Really Work? (Part 1)",
+            "link": "https://blog.bitsrc.io/how-does-javascript-really-work-part-1-7681dd54a36d",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "JavaScript",
+            "access": "public"
+        },
+        {
+            "title": "Understanding Promises in JavaScript",
+            "link": "https://blog.bitsrc.io/understanding-promises-in-javascript-c5248de9ff8f",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "JavaScript",
+            "access": "public"
+        },
+        {
+            "title": "Node.js app in the real world : comments, documentation, testing",
+            "link": "https://medium.com/swlh/node-js-app-in-the-real-world-what-they-never-really-tell-you-part-4-of-a-5-part-series-10fb131fd08d",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "Node.js",
+            "access": "public"
+        },
+        {
+            "title": "Go Goroutines vs Node Cluster & Worker Threads — Part 2",
+            "link": "https://blog.usejournal.com/go-goroutines-vs-node-cluster-worker-threads-part-2-52611217340a",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "Node.js",
+            "access": "public"
+        },
+        {
+            "title": "Kerangka Project Sederhana untuk JavaScript Node JS Backend dan Front End",
+            "link": "https://medium.com/javascript-indonesia-community/kerangka-project-sederhana-untuk-javascript-node-js-backend-dan-front-end-4682d447a944",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "Node.js",
+            "access": "public"
+        },
+        {
+            "title": "How to Remove Array Duplicates in ES6",
+            "link": "https://medium.com/dailyjs/how-to-remove-array-duplicates-in-es6-5daa8789641c",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "JavaScript",
+            "access": "public"
+        }, {
+            "title": "Node.js Best Practices — Express Apps",
+            "link": "https://medium.com/javascript-in-plain-english/node-js-best-practices-express-apps-8de9023402e4",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "Node.js",
+            "access": "public"
+        }, {
+            "title": "Best ORM Libraries for JavaScript",
+            "link": "https://medium.com/better-programming/6-amazing-javascript-destructuring-tricks-d47da9a0047f",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "Package / Library",
+            "access": "public"
+        }, {
+            "title": "How to quickly understand currying in JavaScript",
+            "link": "https://medium.com/swlh/how-to-quickly-understand-currying-in-javascript-7a3875f3fde6",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "JavaScript",
+            "access": "public"
+        }, {
+            "title": "JavaScript Essentials: Understanding Promises",
+            "link": "https://itnext.io/javascript-essentials-understanding-promises-200657e11667",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "JavaScript",
+            "access": "public"
+        }, {
+            "title": "Stop Making These 5 Javascript Style Mistakes",
+            "link": "https://medium.com/the-dev-caf%C3%A9/stop-making-these-5-javascript-style-mistakes-7b352e1b47e3",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "JavaScript",
+            "access": "public"
+        }, {
+            "title": "Stacks in JavaScript",
+            "link": "https://medium.com/better-programming/stacks-in-javascript-d2f0e4404eac",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "JavaScript",
+            "access": "public"
+        }, {
+            "title": "Protect your users from Cross-Site Request Forgery (CSRF)",
+            "link": "https://medium.com/javascript-in-plain-english/protect-your-users-from-cross-site-request-forgery-csrf-8b341b9beea2",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "Web Dev",
+            "access": "public"
+        }, {
+            "title": "Modern JavaScript Explained For Dinosaurs",
+            "link": "https://medium.com/the-node-js-collection/modern-javascript-explained-for-dinosaurs-f695e9747b70",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "JavaScript",
+            "access": "public"
+        }, {
+            "title": "A Brief Introduction to Securing Applications with JWT",
+            "link": "https://levelup.gitconnected.com/a-brief-introduction-to-securing-applications-with-jwt-2004e9f6c829",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "Package / Library",
+            "access": "public"
+        }, {
+            "title": "Web Workers For Beginners",
+            "link": "https://medium.com/javascript-in-plain-english/web-workers-for-beginners-57d7a389cded",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "Web Dev",
+            "access": "public"
+        }, {
+            "title": "A Better Approach to Dark Mode on Your Website",
+            "link": "https://medium.com/better-programming/a-better-approach-to-dark-mode-on-your-website-dadbe8c55b40",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "Web Front End",
+            "access": "public"
+        }, {
+            "title": "Use Chrome DevTools Like a Senior Frontend Developer",
+            "link": "https://medium.com/javascript-in-plain-english/use-chrome-devtools-like-a-senior-frontend-developer-99a4740674",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "Web Front End",
+            "access": "public"
+        }, {
+            "title": "Node.js Promise reject use case survey",
+            "link": "https://medium.com/@nodejs/node-js-promise-reject-use-case-survey-98e3328340c9",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "Node.js",
+            "access": "public"
+        }, {
+            "title": "How does the Event Loop work in Node.js?",
+            "link": "https://medium.com/javascript-in-plain-english/how-does-event-loop-work-in-node-js-d96729ae4a95",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "Node.js",
+            "access": "public"
+        }, {
+            "title": "Deploying Express.js website to VPS with Nginx, PM2 and Ubuntu 18.04",
+            "link": "https://medium.com/@panzelva/deploying-express-js-website-to-vps-with-nginx-pm2-and-ubuntu-18-04-8c5d32593211",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "Other",
+            "access": "public"
+        }, {
+            "title": "Deep Dive into Worker Threads in Node.js",
+            "link": "https://blog.insiderattack.net/deep-dive-into-worker-threads-in-node-js-e75e10546b11",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "Node.js",
+            "access": "public"
+        }, {
+            "title": "Rethinking SOLID principles in JavaScript",
+            "link": "https://medium.com/javascript-in-plain-english/rethinking-solid-principles-in-javascript-7effdd4dc37d",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "JavaScript",
+            "access": "public"
+        }, {
+            "title": "7 JavaScript data structures you must know",
+            "link": "https://medium.com/javarevisited/7-javascript-data-structures-you-must-know-95123122cc39",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "JavaScript",
+            "access": "public"
+        }, {
+            "title": "How to improve JavaScript performance for faster websites",
+            "link": "https://medium.com/javascript-in-plain-english/how-to-improve-javascript-performance-for-faster-websites-99a4f423df7c",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "JavaScript",
+            "access": "public"
+        }, {
+            "title": "JavaScript ES2020 in ReactJS Project",
+            "link": "https://medium.com/swlh/javascript-es2020-in-react-project-9337cbe1e7db",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "React.js",
+            "access": "public"
+        }, {
+            "title": "11+ JavaScript Features You’ve Probably Never Used",
+            "link": "https://blog.bitsrc.io/features-of-javascript-you-probably-never-used-4c117ba3f025",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "JavaScript",
+            "access": "public"
+        }, {
+            "title": "How JavaScript Async/Await Works and How to Use It",
+            "link": "https://medium.com/javascript-in-plain-english/how-javascript-async-await-works-and-how-to-use-it-5d784fa1c8e6",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "JavaScript",
+            "access": "public"
+        }, {
+            "title": "Error Handling in JavaScript",
+            "link": "https://medium.com/javascript-in-plain-english/error-handling-in-javascript-407d9c8528fd",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "JavaScript",
+            "access": "public"
+        }, {
+            "title": "JavaScript Promises — All You Need to Know to Get Started",
+            "link": "https://medium.com/javascript-in-plain-english/javascript-promises-all-you-need-to-know-to-get-started-41e9881008b1",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "JavaScript",
+            "access": "public"
+        }, {
+            "title": "5 Best-ways to make HTTP Requests in Nodejs",
+            "link": "https://medium.com/weekly-webtips/5-best-ways-to-make-http-requests-in-nodejs-de561dacd9c7",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "Node.js",
+            "access": "public"
+        }, {
+            "title": "COMPLETE GIT (VERSION CONTROL SYSTEM)🛡",
+            "link": "https://medium.com/front-end-weekly/complete-git-version-control-system-fb59f6163ea3",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "Git",
+            "access": "public"
+        }, {
+            "title": "Who Else Wants to Write Clean JavaScript Code?",
+            "link": "https://medium.com/javascript-in-plain-english/who-else-wants-to-write-clean-javascript-code-ff4f7896e6bd",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "JavaScript",
+            "access": "public"
+        }, {
+            "title": "How to build a Content Diff View in vanilla JavaScript",
+            "link": "https://medium.com/javascript-in-plain-english/content-diff-view-in-vanilla-javascript-105a00abd7ce",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "JavaScript",
+            "access": "public"
+        }, {
+            "title": "Referensi Belajar Pengembangan Aplikasi dengan JavaScript",
+            "link": "https://medium.com/javascript-indonesia-community/referensi-belajar-pengembangan-app-dengan-javascript-2b0c071d3262",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "JavaScript",
+            "access": "public"
+        }, {
+            "title": "Better Data Management With JavaScript Modern Browsers APIs",
+            "link": "https://levelup.gitconnected.com/better-data-management-with-javascript-modern-browsers-apis-8ef0f389bb8d",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "JavaScript",
+            "access": "public"
+        }, {
+            "title": "23 Insanely Useful NodeJs Libraries You Should Know in 2020",
+            "link": "https://blog.bitsrc.io/23-insanely-useful-nodejs-libraries-you-should-know-in-2020-5a9b570d5416",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "Package / Library",
+            "access": "public"
+        }, {
+            "title": "Google JavaScript Technical Interview (Callbacks, Promises, Await/Async)",
+            "link": "https://medium.com/developers-tomorrow/google-javascript-technical-interview-7a20accd6ddf",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "JavaScript",
+            "access": "public"
+        }, {
+            "title": "How to secure your WebSocket connections",
+            "link": "https://medium.com/free-code-camp/how-to-secure-your-websocket-connections-d0be0996c556",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "Web Dev",
+            "access": "public"
+        }, {
+            "title": "6 Ways to Improve Your Web App’s Security Now",
+            "link": "https://levelup.gitconnected.com/6-ways-to-improve-your-web-apps-security-now-164ff76661b8",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "Web Dev",
+            "access": "public"
+        }, {
+            "title": "5 Ways Service Workers Reshape Modern Web Apps",
+            "link": "https://blog.bitsrc.io/how-service-workers-will-reshape-your-modern-web-apps-c0cc85b8a287",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "Web Dev",
+            "access": "public"
+        }, {
+            "title": "How to make your NodeJS application or API secure",
+            "link": "https://itnext.io/make-security-on-your-nodejs-api-the-priority-50da8dc71d68",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "Node.js",
+            "access": "public"
+        }, {
+            "title": "Here Are 5 Useful React Components",
+            "link": "https://medium.com/javascript-in-plain-english/here-are-5-useful-react-components-fb3927e7d790",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "React.js",
+            "access": "public"
+        }, {
+            "title": "10 Tips for Building a Node.js RESTful API",
+            "link": "https://blog.bitsrc.io/10-tips-for-building-an-api-9ec335601d59",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "Node.js",
+            "access": "public"
+        }, {
+            "title": "Why Using Tokens and Cookies Together is Better for Web App Security",
+            "link": "https://blog.bitsrc.io/why-using-tokens-and-cookies-together-is-better-for-web-apps-9d205b7c1961",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "Web Dev",
+            "access": "public"
+        }, {
+            "title": "JavaScript Event Loop Explained",
+            "link": "https://medium.com/front-end-weekly/javascript-event-loop-explained-4cd26af121d4",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "JavaScript",
+            "access": "public"
+        }, {
+            "title": "8 Performance Analysis Tools for Front-End Development",
+            "link": "https://blog.bitsrc.io/performance-analysis-tools-for-front-end-development-a7b3c1488876",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "JavaScript",
+            "access": "public"
+        }, {
+            "title": "5 Service Worker Caching Strategies for Your Next PWA App",
+            "link": "https://blog.bitsrc.io/5-service-worker-caching-strategies-for-your-next-pwa-app-58539f156f52",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "PWA",
+            "access": "public"
+        }, {
+            "title": "Node.js Tips — Send Emails, Hashing, Promises, and Express Project Structure",
+            "link": "https://medium.com/javascript-in-plain-english/node-js-tips-send-emails-hashing-promises-and-express-project-structure-83697d78b1aa",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "Node.js",
+            "access": "public"
+        }, {
+            "title": "15 Git Commands To Master Before Your Very First Project",
+            "link": "https://levelup.gitconnected.com/15-git-commands-you-should-learn-before-your-very-first-project-f8eebb8dc6e9",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "Git",
+            "access": "public"
+        }, {
+            "title": "JavaScript ‪Module Cheatsheet",
+            "link": "https://medium.com/dailyjs/javascript-module-cheatsheet-7bd474f1d829",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "JavaScript",
+            "access": "public"
+        }, {
+            "title": "Building a Rest API using Deno and MongoDB",
+            "link": "https://medium.com/@berkekurnaz/building-a-rest-api-using-deno-and-mongodb-c7e423f26140",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "Deno",
+            "access": "public"
+        }, {
+            "title": "10 Super Useful Tricks for JavaScript Developers",
+            "link": "https://blog.bitsrc.io/10-super-useful-tricks-for-javascript-developers-f1b76691199b",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "JavaScript",
+            "access": "public"
+        }, {
+            "title": "Rekomendasi Buku dan Sumber Untuk Memulai UX Design",
+            "link": "https://medium.com/sprint-monster/rekomendasi-buku-dan-sumber-untuk-memulai-ux-design-3a4d8a0f7928",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "UI / UX",
+            "access": "public"
+        }, {
+            "title": "Kitab UX Design",
+            "link": "https://medium.com/sprint-monster/kitab-ux-design-7203ee3d0d1f",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "UI / UX",
+            "access": "public"
+        }, {
+            "title": "Node.js Best Practices — Express App Reliability and Logging",
+            "link": "https://medium.com/javascript-in-plain-english/node-js-best-practices-express-app-reliability-and-logging-34be102aab9b",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "Framework",
+            "access": "public"
+        }, {
+            "title": "Building a gRPC service with Node.js",
+            "link": "https://medium.com/javascript-in-plain-english/building-a-grpc-service-with-node-js-370b576d3809",
+            "page": "/mediums",
+            "slug": "-",
+            "category": "Other",
+            "access": "public"
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "personals",
+  "info": {
+    "name": "personal"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "page": {
+      "type": "string",
+      "required": true,
+      "default": "/private"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text",
+      "required": true,
+      "default": "-"
+    },
+    "category": {
+      "model": "personal-category",
+      "via": "personals"
+    },
+    "access": {
+      "model": "access",
+      "via": "personals"
+    }
+  }
+}

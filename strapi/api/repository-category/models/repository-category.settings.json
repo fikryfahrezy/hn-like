@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "repository_categories",
+  "info": {
+    "name": "repository-category"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "repositories": {
+      "via": "category",
+      "collection": "repository"
+    }
+  }
+}

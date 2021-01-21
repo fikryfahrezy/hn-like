@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "repositories",
+  "info": {
+    "name": "repository"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "page": {
+      "type": "string",
+      "required": true,
+      "default": "/awesome/repositories"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text",
+      "required": true,
+      "default": "-"
+    },
+    "category": {
+      "model": "repository-category",
+      "via": "repositories"
+    },
+    "access": {
+      "model": "access",
+      "via": "repositories"
+    }
+  }
+}

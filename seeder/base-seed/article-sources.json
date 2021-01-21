@@ -1,0 +1,36 @@
+{
+    "data": [{
+            "name": "Hacker Noon"
+        },
+        {
+            "name": "GitLab"
+        },
+        {
+            "name": "freeCodeCamp"
+        },
+        {
+            "name": "LogRocket"
+        },
+        {
+            "name": "Academind"
+        },
+        {
+            "name": "MDN Web Docs"
+        },
+        {
+            "name": "Web.dev"
+        },
+        {
+            "name": "Google Developer"
+        },
+        {
+            "name": "Mozilla"
+        },
+        {
+            "name": "MDN Hacks"
+        },
+        {
+            "name": "Other"
+        }
+    ]
+}

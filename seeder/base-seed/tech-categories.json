@@ -1,0 +1,21 @@
+{
+    "data": [{
+            "name": "Web Front End Framework"
+        },
+        {
+            "name": "Headless CMS"
+        },
+        {
+            "name": "Web Back End Framework"
+        },
+        {
+            "name": "Database"
+        },
+        {
+            "name": "Utility"
+        },
+        {
+            "name": "Other"
+        }
+    ]
+}

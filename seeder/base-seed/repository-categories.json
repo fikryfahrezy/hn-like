@@ -1,0 +1,18 @@
+{
+    "data": [{
+            "name": "Package / Library"
+        },
+        {
+            "name": "Cheatsheet"
+        },
+        {
+            "name": "Book"
+        },
+        {
+            "name": "Resource"
+        },
+        {
+            "name": "Other"
+        }
+    ]
+}

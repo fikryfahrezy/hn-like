@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mediums",
+  "info": {
+    "name": "medium"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "page": {
+      "type": "string",
+      "default": "/mediums",
+      "required": true
+    },
+    "slug": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text",
+      "required": true,
+      "default": "-"
+    },
+    "category": {
+      "model": "medium-category",
+      "via": "mediums"
+    },
+    "access": {
+      "model": "access",
+      "via": "mediums"
+    }
+  }
+}

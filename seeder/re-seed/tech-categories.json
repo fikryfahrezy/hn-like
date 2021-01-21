@@ -1,0 +1,19 @@
+[{
+    "id": 1,
+    "name": "Web Front End Framework"
+}, {
+    "id": 2,
+    "name": "Web Back End Framework"
+}, {
+    "id": 3,
+    "name": "Headless CMS"
+}, {
+    "id": 4,
+    "name": "Utility"
+}, {
+    "id": 5,
+    "name": "Database"
+}, {
+    "id": 6,
+    "name": "Other"
+}]

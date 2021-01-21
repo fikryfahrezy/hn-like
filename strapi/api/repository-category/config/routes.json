@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/repository-categories",
+      "handler": "repository-category.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/repository-categories/count",
+      "handler": "repository-category.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/repository-categories/:id",
+      "handler": "repository-category.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/repository-categories",
+      "handler": "repository-category.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/repository-categories/:id",
+      "handler": "repository-category.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/repository-categories/:id",
+      "handler": "repository-category.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

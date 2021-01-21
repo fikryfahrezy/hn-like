@@ -1,0 +1,179 @@
+{
+    "data": [{
+            "title": "How To Deploy And Manage MongoDB With Docker",
+            "link": "https://phoenixnap.com/kb/docker-mongodb",
+            "page": "/private",
+            "slug": "-",
+            "category": "Docker",
+            "access": "private"
+        },
+        {
+            "title": "MySQL Docker Container Tutorial: How To Set Up & Configure",
+            "link": "https://phoenixnap.com/kb/mysql-docker-container",
+            "page": "/private",
+            "slug": "-",
+            "category": "Docker",
+            "access": "private"
+        },
+        {
+            "title": "Mastering Markdown",
+            "link": "https://guides.github.com/features/mastering-markdown/",
+            "page": "/private",
+            "slug": "-",
+            "category": "MarkDown",
+            "access": "private"
+        },
+        {
+            "title": "CommonMark",
+            "link": "https://commonmark.org/",
+            "page": "/private",
+            "slug": "-",
+            "category": "MarkDown",
+            "access": "private"
+        },
+        {
+            "title": "Markdown Live Preview",
+            "link": "https://markdownlivepreview.com/",
+            "page": "/private",
+            "slug": "-",
+            "category": "MarkDown",
+            "access": "private"
+        },
+        {
+            "title": "shield.io",
+            "link": "https://shields.io/",
+            "page": "/private",
+            "slug": "-",
+            "category": "Other",
+            "access": "private"
+        },
+        {
+            "title": "How to delete multiples files in Github",
+            "link": "https://github.community/t/how-to-delete-multiples-files-in-github/702",
+            "page": "/private",
+            "slug": "-",
+            "category": "Git",
+            "access": "private"
+        },
+        {
+            "title": "Add all files to a commit except a single file?",
+            "link": "https://stackoverflow.com/questions/4475457/add-all-files-to-a-commit-except-a-single-file",
+            "page": "/private",
+            "slug": "-",
+            "category": "Git",
+            "access": "private"
+        },
+        {
+            "title": "How do I properly force a Git push?",
+            "link": "https://stackoverflow.com/questions/5509543/how-do-i-properly-force-a-git-push",
+            "page": "/private",
+            "slug": "-",
+            "category": "Git",
+            "access": "private"
+        },
+        {
+            "title": "How to delete remote branches in Git",
+            "link": "https://www.educative.io/edpresso/how-to-delete-remote-branches-in-git",
+            "page": "/private",
+            "slug": "-",
+            "category": "Git",
+            "access": "private"
+        },
+        {
+            "title": "How To Unstage Files on Git",
+            "link": "https://devconnected.com/how-to-unstage-files-on-git/#:~:text=The%20easiest%20way%20to%20unstage,file%20you%20want%20to%20unstage.&text=By%20default%2C%20the%20commit%20parameter,will%20be%20referring%20to%20HEAD.",
+            "page": "/private",
+            "slug": "-",
+            "category": "Git",
+            "access": "private"
+        },
+        {
+            "title": "Hosted directly from your GitHub repository",
+            "link": "https://pages.github.com/",
+            "page": "/private",
+            "slug": "-",
+            "category": "Other",
+            "access": "private"
+        },
+        {
+            "title": "Getting Started with GitHub Pages",
+            "link": "https://guides.github.com/features/pages/",
+            "page": "/private",
+            "slug": "-",
+            "category": "Other",
+            "access": "private"
+        },
+        {
+            "title": "How to Add and Delete Users on Ubuntu 18.04",
+            "link": "https://linuxize.com/post/how-to-add-and-delete-users-on-ubuntu-18-04/",
+            "page": "/private",
+            "slug": "-",
+            "category": "Linux",
+            "access": "private"
+        },
+        {
+            "title": "How to Create MySQL Users Accounts and Grant Privileges",
+            "link": "https://linuxize.com/post/how-to-create-mysql-user-accounts-and-grant-privileges/",
+            "page": "/private",
+            "slug": "-",
+            "category": "Linux",
+            "access": "private"
+        },
+        {
+            "title": "How to Rename Files and Directories in Linux",
+            "link": "https://linuxize.com/post/how-to-rename-files-in-linux/",
+            "page": "/private",
+            "slug": "-",
+            "category": "Linux",
+            "access": "private"
+        },
+        {
+            "title": "Install MySQL Server on the Ubuntu operating system",
+            "link": "https://support.rackspace.com/how-to/install-mysql-server-on-the-ubuntu-operating-system/",
+            "page": "/private",
+            "slug": "-",
+            "category": "Linux",
+            "access": "private"
+        },
+        {
+            "title": "How To Allow Remote Access to MySQL",
+            "link": "https://www.digitalocean.com/community/tutorials/how-to-allow-remote-access-to-mysql",
+            "page": "/private",
+            "slug": "-",
+            "category": "Linux",
+            "access": "private"
+        },
+        {
+            "title": "How To Import and Export Databases in MySQL or MariaDB",
+            "link": "https://www.digitalocean.com/community/tutorials/how-to-import-and-export-databases-in-mysql-or-mariadb",
+            "page": "/private",
+            "slug": "-",
+            "category": "Linux",
+            "access": "private"
+        },
+        {
+            "title": "Host 'xxx.xx.xxx.xxx' is not allowed to connect to this MySQL server",
+            "link": "https://stackoverflow.com/questions/1559955/host-xxx-xx-xxx-xxx-is-not-allowed-to-connect-to-this-mysql-server",
+            "page": "/private",
+            "slug": "-",
+            "category": "Linux",
+            "access": "private"
+        },
+        {
+            "title": "How to reset or change the MySQL root password?",
+            "link": "https://stackoverflow.com/questions/16556497/how-to-reset-or-change-the-mysql-root-password?",
+            "page": "/private",
+            "slug": "-",
+            "category": "Linux",
+            "access": "private"
+        },
+        {
+            "title": "MySQL Error: : 'Access denied for user 'root'@'localhost'",
+            "link": "https://stackoverflow.com/questions/41645309/mysql-error-access-denied-for-user-rootlocalhost",
+            "page": "/private",
+            "slug": "-",
+            "category": "Linux",
+            "access": "private"
+        }
+    ]
+}

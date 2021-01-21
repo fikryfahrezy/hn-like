@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "teches",
+  "info": {
+    "name": "tech"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "page": {
+      "type": "string",
+      "required": true,
+      "default": "/awesome/teches"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text",
+      "required": true,
+      "default": "-"
+    },
+    "category": {
+      "model": "tech-category",
+      "via": "teches"
+    },
+    "access": {
+      "model": "access",
+      "via": "teches"
+    }
+  }
+}

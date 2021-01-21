@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tech-categories",
+      "handler": "tech-category.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tech-categories/count",
+      "handler": "tech-category.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tech-categories/:id",
+      "handler": "tech-category.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/tech-categories",
+      "handler": "tech-category.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tech-categories/:id",
+      "handler": "tech-category.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tech-categories/:id",
+      "handler": "tech-category.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

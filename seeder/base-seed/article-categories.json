@@ -1,0 +1,42 @@
+{
+    "data": [{
+            "name": "JavaScript"
+        },
+        {
+            "name": "GraphQL"
+        },
+        {
+            "name": "Node.js"
+        },
+        {
+            "name": "Web Dev"
+        },
+        {
+            "name": "React.js"
+        },
+        {
+            "name": "Kubernetes"
+        },
+        {
+            "name": "Programming"
+        },
+        {
+            "name": "PWA"
+        },
+        {
+            "name": "SQL"
+        },
+        {
+            "name": "Docker"
+        },
+        {
+            "name": "HTML & CSS"
+        },
+        {
+            "name": "Git"
+        },
+        {
+            "name": "Other"
+        }
+    ]
+}

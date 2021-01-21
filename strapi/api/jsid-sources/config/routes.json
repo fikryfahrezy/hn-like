@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/jsid-sources",
+      "handler": "jsid-sources.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/jsid-sources/count",
+      "handler": "jsid-sources.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/jsid-sources/:id",
+      "handler": "jsid-sources.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/jsid-sources",
+      "handler": "jsid-sources.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/jsid-sources/:id",
+      "handler": "jsid-sources.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/jsid-sources/:id",
+      "handler": "jsid-sources.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

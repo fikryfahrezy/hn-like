@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "accesses",
+  "info": {
+    "name": "access"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "articles": {
+      "via": "access",
+      "collection": "article"
+    },
+    "devtos": {
+      "via": "access",
+      "collection": "devto"
+    },
+    "mediums": {
+      "via": "access",
+      "collection": "medium"
+    },
+    "personals": {
+      "via": "access",
+      "collection": "personal"
+    },
+    "teches": {
+      "via": "access",
+      "collection": "tech"
+    },
+    "repositories": {
+      "via": "access",
+      "collection": "repository"
+    }
+  }
+}

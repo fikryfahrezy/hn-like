@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jsid_sources",
+  "info": {
+    "name": "jsid-source"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "jsids": {
+      "via": "source",
+      "collection": "jsid"
+    }
+  }
+}
