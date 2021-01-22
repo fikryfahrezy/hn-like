@@ -1,3 +1,5 @@
+import style from '../styles/Article.module.css';
+
 /**
  * NOTE: Difference between <section> and <article>
  * https://stackoverflow.com/questions/7549561/section-vs-article-html5
@@ -7,20 +9,24 @@ type ArticleProps = any;
 
 const Article = ({ article, lastElementRef }: ArticleProps) => (
   <article
-    style={{ margin: '2.5rem 0' }}
+    id={article.slug}
+    className={style.article}
     ref={lastElementRef && lastElementRef}
   >
     <h2>
-      <a href={`#${article.slug}`}>{article.title}</a>
-    </h2>
-    <p>
       <a href={article.link} target="_blank">
-        link
+        {article.title}
       </a>
-    </p>
+    </h2>
     <p>Description: {article.description}</p>
-    <p>Category: {article.category?.name}</p>
-    {article.source && <p>Source: {article.source?.name}</p>}
+    <p>
+      Category: <code className={style.code}>{article.category?.name}</code>
+    </p>
+    {article.source && (
+      <p>
+        Source: <code className={style.code}>{article.source?.name}</code>
+      </p>
+    )}
   </article>
 );
 

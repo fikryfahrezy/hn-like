@@ -6,82 +6,90 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Web Development Resources</title>
+        <title>Hacker News Like</title>
         <link rel="icon" href="/favicon.ico" />
-
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-        <meta name="description" content="Share Something Awesome for Me" />
+        <meta
+          name="description"
+          content="Find the recent news about programming especially web development."
+        />
         <meta
           name="keyword"
-          content="html, css, javascript, yarn, npm, package, library, developer, development, resources, web development, learning, tips, trick"
+          content="html,css,javascript,web,development,web development,resources,learning,tips,trick"
         />
-
+        <meta property="og:title" content="Hacker News Like" />
         <meta
           property="og:description"
-          content="Share Something Awesome for Me"
+          content="Find the recent news about programming especially web development."
+        />
+        <meta
+          name="og:image"
+          content="https://og-image.vercel.app/Hacker%20News%20Like.jpeg?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-black.svg"
         />
         <meta property="og:type" content="website" />
-
-        <meta name="twitter:title" content="Resources Website" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="Hacker News Like" />
         <meta
           name="twitter:description"
-          content="Share Something Awesome for Me"
+          content="Find the recent news about programming especially web development."
+        />
+        <meta
+          name="twitter:image"
+          content="https://og-image.vercel.app/Hacker%20News%20Like.jpeg?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-black.svg"
         />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          What "I" <a href="#">Save</a>
+          Hacker News <a href="#">Like</a>
         </h1>
 
         <p className={styles.description}>
-          Simple website that made to share something{' '}
-          <code className={styles.code}>useful for "me"</code>
+          Made with love, just for <code className={styles.code}>fun</code>
         </p>
 
         <div className={styles.grid}>
           <Link href="/news">
             <a className={styles.card}>
-              <h3>JavaScript Indonesia Telegram Channel &rarr;</h3>
-              <p>
-                Daily reference posted on Telegram Channel JavaScript Indonesia.
-              </p>
+              <h3>Web Dev News &rarr;</h3>
+              <p>Find recent news about web programming from random sources.</p>
             </a>
           </Link>
 
           <Link href="/mediums">
             <a className={styles.card}>
               <h3>Medium &rarr;</h3>
-              <p>What "I" bookmark on my Medium account.</p>
+              <p>Find newest Medium stories.</p>
             </a>
           </Link>
 
           <Link href="/devtos">
             <a className={styles.card}>
               <h3>Dev.to &rarr;</h3>
-              <p>What "I" bookmark on my Dev.to account.</p>
+              <p>Find newest Dev.to posts.</p>
             </a>
           </Link>
 
           <Link href="/repositories">
             <a className={styles.card}>
               <h3>GitHub Repositories &rarr;</h3>
-              <p>Another awesome tech / GitHub repositories that "I" save.</p>
+              <p>List of awesome GitHub Repositories.</p>
             </a>
           </Link>
 
           <Link href="/technologies">
             <a className={styles.card}>
               <h3>Awesome Technologies &rarr;</h3>
-              <p>Another awesome tech / GitHub repositories that "I" save.</p>
+              <p>List of awesome technologies about programming.</p>
             </a>
           </Link>
 
           <Link href="/others">
             <a className={styles.card}>
               <h3>Others &rarr;</h3>
-              <p>Another awesome tech / GitHub repositories that "I" save.</p>
+              <p>
+                Just another article or source about programming references.
+              </p>
             </a>
           </Link>
         </div>
