@@ -3,6 +3,20 @@ import Head from 'next/head';
 import { GetStaticProps } from 'next';
 import { initializeApollo } from '../../lib/apolloClient';
 import Page from '../../components/page';
+import { DataType, UtilityType } from '../../types/types';
+
+type RepositoriesType = {
+  repositories: DataType[];
+};
+
+type RepositoriesCategories = {
+  repositoryCategories: UtilityType[];
+};
+
+type RepositoriesProps = {
+  repositories: ApolloQueryResult<RepositoriesType>;
+  repositoryCategories: ApolloQueryResult<RepositoriesCategories>;
+};
 
 const GET_REPOSITORIES = gql`
   query repositories($start: Int, $limit: Int, $sort: String) {
@@ -25,11 +39,6 @@ const queryVariables = {
   sort: 'id:DESC',
 };
 
-type RepositoriesProps = {
-  repositories: ApolloQueryResult<any>;
-  repositoryCategories: ApolloQueryResult<any>;
-};
-
 const Repositories = ({
   repositories,
   repositoryCategories,
@@ -42,6 +51,11 @@ const Repositories = ({
   } = repositoryCategories;
   const graphQueryName = 'repositories';
 
+  const headTitle = 'GitHub Repositories';
+  const headDescription = 'List of awesome GitHub Repositories.';
+  const headImage =
+    'https://og-image.vercel.app/GitHub%20Repositories.jpeg?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-black.svg';
+
   return (
     <>
       <Head>
@@ -49,34 +63,19 @@ const Repositories = ({
         <link rel="icon" href="/favicon.ico" />
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta
-          name="description"
-          content="List of awesome GitHub Repositories."
-        />
+        <meta name="description" content={headDescription} />
         <meta
           name="keyword"
           content="html,css,javascript,web,development,web development,resources,learning,tips,trick"
         />
-        <meta property="og:title" content="GitHub Repositories" />
-        <meta
-          property="og:description"
-          content="List of awesome GitHub Repositories."
-        />
-        <meta
-          name="og:image"
-          content="https://og-image.vercel.app/GitHub%20Repositories.jpeg?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-black.svg"
-        />
+        <meta property="og:title" content={headTitle} />
+        <meta property="og:description" content={headDescription} />
+        <meta name="og:image" content={headImage} />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:title" content="GitHub Repositories" />
-        <meta
-          name="twitter:description"
-          content="List of awesome GitHub Repositories."
-        />
-        <meta
-          name="twitter:image"
-          content="https://og-image.vercel.app/GitHub%20Repositories.jpeg?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-black.svg"
-        />
+        <meta name="twitter:title" content={headTitle} />
+        <meta name="twitter:description" content={headDescription} />
+        <meta name="twitter:image" content={headImage} />
       </Head>
       <Page
         data={repositoryData}
@@ -84,8 +83,8 @@ const Repositories = ({
         GRAPH_QUERY={GET_REPOSITORIES}
         queryVariables={queryVariables}
         graphQueryName={graphQueryName}
-        pageTitle="Awesome Repositories that 'I' Starred"
-        pageDescription="List of Awesome Repositories for 'me'"
+        pageTitle={headTitle}
+        pageDescription={headDescription}
       />
     </>
   );

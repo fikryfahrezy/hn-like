@@ -1,6 +1,11 @@
 import style from '../styles/Select.module.css';
+import { UtilityType } from '../types/types';
 
-type SelectProps = any;
+type SelectProps = {
+  onChange: (name: 'source' | 'search' | 'category', keyword: string) => void;
+  items: UtilityType[];
+  name: 'source' | 'category';
+};
 
 const Select = ({ onChange, items, name }: SelectProps) => {
   return (
@@ -8,10 +13,14 @@ const Select = ({ onChange, items, name }: SelectProps) => {
       <label htmlFor={name} className={style.label}>
         {name}
       </label>
-      <select id={name} onChange={(e) => onChange(e.target.value)}>
+      <select
+        id={name}
+        name={name}
+        onChange={({ target }) => onChange(name, target.value)}
+      >
         <option value="''">Any</option>
         {items.length > 0 &&
-          items.map((item: any, i: number) => (
+          items.map((item: UtilityType, i: number) => (
             <option key={i} value={item.name}>
               {item.name}
             </option>

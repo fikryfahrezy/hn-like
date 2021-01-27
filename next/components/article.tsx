@@ -1,11 +1,15 @@
 import style from '../styles/Article.module.css';
+import { DataType } from '../types/types';
 
 /**
  * NOTE: Difference between <section> and <article>
  * https://stackoverflow.com/questions/7549561/section-vs-article-html5
  */
 
-type ArticleProps = any;
+type ArticleProps = {
+  article: DataType;
+  lastElementRef?: (node: any) => void;
+};
 
 const Article = ({ article, lastElementRef }: ArticleProps) => (
   <article
@@ -24,7 +28,7 @@ const Article = ({ article, lastElementRef }: ArticleProps) => (
     </p>
     {article.source && (
       <p>
-        Source: <code className={style.code}>{article.source?.name}</code>
+        Source: <code className={style.code}>{article.source.name}</code>
       </p>
     )}
   </article>

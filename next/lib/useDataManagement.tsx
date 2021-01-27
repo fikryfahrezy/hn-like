@@ -1,6 +1,13 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { ApolloClient, DocumentNode } from '@apollo/client';
 import { initializeApollo } from '../lib/apolloClient';
+import { DataType } from '../types/types';
+
+type CurrentSearchType = {
+  search: string;
+  category: string;
+  source: string;
+};
 
 // NOTE: Infinity Scroll References
 // https://github.com/WebDevSimplified/React-Infinite-Scrolling
@@ -8,7 +15,7 @@ import { initializeApollo } from '../lib/apolloClient';
 const apolloClient: ApolloClient<unknown> = initializeApollo();
 
 const useDataManagement = (
-  inputData: any[],
+  inputData: DataType[],
   graphQuery: string,
   QUERY: DocumentNode,
   variables: object,
@@ -22,7 +29,11 @@ const useDataManagement = (
   const isFetching = useRef(true);
   const isMounted = useRef(true);
   const isFetchMore = useRef(true);
-  const currentSearch = useRef('');
+  const currentSearch = useRef<CurrentSearchType>({
+    search: '',
+    category: '',
+    source: '',
+  });
   const timeout = useRef<NodeJS.Timeout>(null);
 
   const lastElementRef = useCallback(
@@ -58,14 +69,16 @@ const useDataManagement = (
               isFetchMore.current = true;
               const { data: currentData, filteredData } = data;
               const newData = fetchData[graphQuery] as any[];
-              const regex = RegExp(`${currentSearch.current}`, 'gi');
 
               setData((prevState) => ({
                 ...prevState,
                 data: [...currentData, ...newData],
                 filteredData:
                   filteredData.length > 0
-                    ? [...filteredData, ...filteredData.filter(filterFn(regex))]
+                    ? [
+                        ...filteredData,
+                        ...filteredData.filter(filterFn(currentSearch.current)),
+                      ]
                     : filteredData,
               }));
             } else {
@@ -93,22 +106,33 @@ const useDataManagement = (
     };
   }, []);
 
-  const filterFn = (regex: RegExp) => (value: any) =>
-    value.title.match(regex) ||
-    value.link.match(regex) ||
-    value.description?.match(regex) ||
-    value.category.name.match(regex) ||
-    value.source?.name.match(regex);
+  const filterFn = ({ search, category, source }: CurrentSearchType) => (
+    value: DataType
+  ) => {
+    const searchRegex = RegExp(`${search}`, 'gi');
+    const categoryRegex = RegExp(`${category}`, 'gi');
+    const sourceRegex = RegExp(`${source}`, 'gi');
 
-  const onChange = (keyword: string) => {
-    currentSearch.current = keyword;
-    const regex = RegExp(`${keyword}`, 'gi');
+    return (
+      value.title.match(searchRegex) ||
+      value.link.match(searchRegex) ||
+      value.description?.match(searchRegex) ||
+      value.category?.name.match(categoryRegex) ||
+      value.source?.name.match(sourceRegex)
+    );
+  };
+
+  const onChange = (
+    name: 'search' | 'category' | 'source',
+    keyword: string
+  ) => {
+    currentSearch.current[name] = keyword;
 
     let filtered: Array<any>;
     const { data: currentData, filteredData } = data;
     if (filteredData.length === 0)
-      filtered = currentData.filter(filterFn(regex));
-    else filtered = filteredData.filter(filterFn(regex));
+      filtered = currentData.filter(filterFn(currentSearch.current));
+    else filtered = filteredData.filter(filterFn(currentSearch.current));
 
     setData((prevState) => ({ ...prevState, filteredData: filtered }));
   };

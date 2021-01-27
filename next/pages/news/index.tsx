@@ -3,6 +3,25 @@ import Head from 'next/head';
 import { GetStaticProps } from 'next';
 import { initializeApollo } from '../../lib/apolloClient';
 import Page from '../../components/page';
+import { DataType, UtilityType } from '../../types/types';
+
+type NewsType = {
+  jsids: DataType[];
+};
+
+type NewsCategories = {
+  jsidCategories: UtilityType[];
+};
+
+type NewsSources = {
+  jsidSources: UtilityType[];
+};
+
+type NewsProps = {
+  news: ApolloQueryResult<NewsType>;
+  newsSources: ApolloQueryResult<NewsSources>;
+  newsCategories: ApolloQueryResult<NewsCategories>;
+};
 
 const GET_NEWS = gql`
   query jsids($start: Int, $limit: Int, $sort: String) {
@@ -28,12 +47,6 @@ const queryVariables = {
   sort: 'id:DESC',
 };
 
-type NewsProps = {
-  news: ApolloQueryResult<any>;
-  newsSources: ApolloQueryResult<any>;
-  newsCategories: ApolloQueryResult<any>;
-};
-
 const News = ({ news, newsSources, newsCategories }: NewsProps) => {
   const {
     data: { jsids: jsidData },
@@ -46,6 +59,12 @@ const News = ({ news, newsSources, newsCategories }: NewsProps) => {
   } = newsSources;
   const graphQueryName = 'jsids';
 
+  const headTitle = 'Web Dev News';
+  const headDescription =
+    'Find recent news about web programming from random sources.';
+  const headImage =
+    'https://og-image.vercel.app/Web%20Dev%20News.jpeg?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-black.svg';
+
   return (
     <>
       <Head>
@@ -53,34 +72,19 @@ const News = ({ news, newsSources, newsCategories }: NewsProps) => {
         <link rel="icon" href="/favicon.ico" />
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta
-          name="description"
-          content="Find recent news about web programming from random sources."
-        />
+        <meta name="description" content={headDescription} />
         <meta
           name="keyword"
           content="html,css,javascript,web,development,web development,resources,learning,tips,trick"
         />
-        <meta property="og:title" content="Web Dev News" />
-        <meta
-          property="og:description"
-          content="Find recent news about web programming from random sources."
-        />
-        <meta
-          name="og:image"
-          content="https://og-image.vercel.app/Web%20Dev%20News.jpeg?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-black.svg"
-        />
+        <meta property="og:title" content={headTitle} />
+        <meta property="og:description" content={headDescription} />
+        <meta name="og:image" content={headImage} />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:title" content="Web Dev News" />
-        <meta
-          name="twitter:description"
-          content="Find recent news about web programming from random sources."
-        />
-        <meta
-          name="twitter:image"
-          content="https://og-image.vercel.app/Web%20Dev%20News.jpeg?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-black.svg"
-        />
+        <meta name="twitter:title" content={headTitle} />
+        <meta name="twitter:description" content={headDescription} />
+        <meta name="twitter:image" content={headImage} />
       </Head>
       <Page
         data={jsidData}
@@ -89,8 +93,8 @@ const News = ({ news, newsSources, newsCategories }: NewsProps) => {
         GRAPH_QUERY={GET_NEWS}
         queryVariables={queryVariables}
         graphQueryName={graphQueryName}
-        pageTitle="JavaScript Indonesia Telegram Channel Post"
-        pageDescription="Daily Post from JavaScript Indonesia Channel on Telegram"
+        pageTitle={headTitle}
+        pageDescription={headDescription}
       />
     </>
   );

@@ -3,6 +3,25 @@ import Head from 'next/head';
 import { GetStaticProps } from 'next';
 import { initializeApollo } from '../../lib/apolloClient';
 import Page from '../../components/page';
+import { DataType, UtilityType } from '../../types/types';
+
+type ArticlesType = {
+  articles: DataType[];
+};
+
+type ArticleCategories = {
+  articleCategories: UtilityType[];
+};
+
+type ArticleSources = {
+  articleSources: UtilityType[];
+};
+
+type OthersProps = {
+  articles: ApolloQueryResult<ArticlesType>;
+  articleSources: ApolloQueryResult<ArticleSources>;
+  articleCategories: ApolloQueryResult<ArticleCategories>;
+};
 
 const GET_ARTICLES = gql`
   query articles($start: Int, $limit: Int, $sort: String) {
@@ -28,12 +47,6 @@ const queryVariables = {
   sort: 'id:DESC',
 };
 
-type OthersProps = {
-  articles: ApolloQueryResult<any>;
-  articleSources: ApolloQueryResult<any>;
-  articleCategories: ApolloQueryResult<any>;
-};
-
 const Others = ({
   articles,
   articleSources,
@@ -50,6 +63,12 @@ const Others = ({
   } = articleSources;
   const graphQueryName = 'articles';
 
+  const headTitle = 'Just Others';
+  const headDescription =
+    'Just another article or source about programming references.';
+  const headImage =
+    'https://og-image.vercel.app/Just%20Others.jpeg?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-black.svg';
+
   return (
     <>
       <Head>
@@ -57,34 +76,19 @@ const Others = ({
         <link rel="icon" href="/favicon.ico" />
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta
-          name="description"
-          content="Just another article or source about programming references."
-        />
+        <meta name="description" content={headDescription} />
         <meta
           name="keyword"
           content="html,css,javascript,web,development,web development,resources,learning,tips,trick"
         />
-        <meta property="og:title" content="Just Others" />
-        <meta
-          property="og:description"
-          content="Just another article or source about programming references."
-        />
-        <meta
-          name="og:image"
-          content="https://og-image.vercel.app/Just%20Others.jpeg?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-black.svg"
-        />
+        <meta property="og:title" content={headTitle} />
+        <meta property="og:description" content={headDescription} />
+        <meta name="og:image" content={headImage} />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:title" content="Just Others" />
-        <meta
-          name="twitter:description"
-          content="Just another article or source about programming references."
-        />
-        <meta
-          name="twitter:image"
-          content="https://og-image.vercel.app/Just%20Others.jpeg?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-black.svg"
-        />
+        <meta name="twitter:title" content={headTitle} />
+        <meta name="twitter:description" content={headDescription} />
+        <meta name="twitter:image" content={headImage} />
       </Head>
       <Page
         data={articleData}
@@ -93,8 +97,8 @@ const Others = ({
         GRAPH_QUERY={GET_ARTICLES}
         queryVariables={queryVariables}
         graphQueryName={graphQueryName}
-        pageTitle="Articles that 'I' Bookmarked"
-        pageDescription="List of Awesome Articles for 'me'"
+        pageTitle={headTitle}
+        pageDescription={headDescription}
       />
     </>
   );

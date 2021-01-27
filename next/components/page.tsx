@@ -1,4 +1,6 @@
 import React from 'react';
+import Link from 'next/link';
+import { DocumentNode } from '@apollo/client';
 import style from '../styles/Page.module.css';
 import Articles from './articles';
 import Header from './header';
@@ -7,17 +9,17 @@ import Loading from './loading';
 import Error from './error';
 import BackTopButton from './backTopButton';
 import useDataManagement from '../lib/useDataManagement';
-import { DocumentNode } from '@apollo/client';
+import { DataType, UtilityType } from '../types/types';
 
 type PageProps = {
   GRAPH_QUERY: DocumentNode;
-  data: any[];
+  data: DataType[];
   queryVariables: object;
   graphQueryName: string;
   pageTitle: string;
   pageDescription: string;
-  categories: any[];
-  sources?: any[];
+  categories: UtilityType[];
+  sources?: UtilityType[];
 };
 
 const Page = ({
@@ -48,6 +50,11 @@ const Page = ({
   return (
     <div className={style.flex}>
       <div className={style.container}>
+        <Link href="/">
+          <a>
+            <button className={style.backButton}>&larr;</button>
+          </a>
+        </Link>
         <Header pageTitle={pageTitle} pageDescription={pageDescription} />
         <div
           className={
@@ -58,9 +65,10 @@ const Page = ({
             <label htmlFor="search">Search</label>
             <input
               id="search"
+              name="search"
               type="text"
               placeholder="..."
-              onChange={(e) => onChange(e.target.value)}
+              onChange={({ target }) => onChange('search', target.value)}
             />
           </div>
           <Select onChange={onChange} items={categories} name="category" />
