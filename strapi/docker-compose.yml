@@ -1,0 +1,19 @@
+version: "3"
+
+services:
+  strapi:
+    container_name: hn-like_strapi
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file:
+      - .env
+    ports:
+      - "1337:1337"
+    networks:
+      - postgresql
+
+networks:
+  postgresql:
+    external:
+      name: postgresql

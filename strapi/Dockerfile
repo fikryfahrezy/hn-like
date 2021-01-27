@@ -1,8 +1,8 @@
 FROM strapi/base
 
-WORKDIR /my-path
+WORKDIR /strapi
 
-COPY ./package.json ./
+COPY ./package*.json ./
 
 RUN npm install
 
@@ -10,10 +10,8 @@ COPY . .
 
 ENV NODE_ENV production
 
+ENV PORT 1337
+
 RUN npm run build
 
-EXPOSE 1337
-
 CMD ["npm", "start"]
-
-ENTRYPOINT ["npm", "start"]
