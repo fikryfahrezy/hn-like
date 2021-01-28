@@ -9,6 +9,11 @@ type CurrentSearchType = {
   source: string;
 };
 
+type DataStateType = {
+  data: DataType[];
+  filteredData: DataType[] | null;
+};
+
 // NOTE: Infinity Scroll References
 // https://github.com/WebDevSimplified/React-Infinite-Scrolling
 // < Using GraphQL> https://github.com/vercel/next.js/blob/canary/examples/with-apollo/components/PostList.js
@@ -21,24 +26,87 @@ const useDataManagement = (
   variables: object,
   dataLength: number
 ) => {
-  const [data, setData] = useState({ data: inputData, filteredData: [] });
-  const [page, setPage] = useState(1);
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState(false);
-  const observer = useRef(null);
-  const isFetching = useRef(true);
-  const isMounted = useRef(true);
-  const isFetchMore = useRef(true);
-  const currentSearch = useRef<CurrentSearchType>({
+  const defaultSearch = {
     search: '',
     category: '',
     source: '',
+  };
+
+  const [data, setData] = useState<DataStateType>({
+    data: inputData,
+    filteredData: null,
   });
-  const timeout = useRef<NodeJS.Timeout>(null);
+  const [page, setPage] = useState(1);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(false);
+  const observer = useRef<IntersectionObserver>(null);
+  const isFetching = useRef(true);
+  const isMounted = useRef(true);
+  const isFetchMore = useRef(true);
+  const isFetchCanceled = useRef(false);
+  const currentSearch = useRef<CurrentSearchType>(defaultSearch);
+
+  useEffect(() => {
+    setLoading(true);
+    const timeout = setTimeout(async function () {
+      try {
+        if (isFetching.current) {
+          isFetching.current = false;
+          const { data: fetchedData } = await apolloClient.query({
+            query: QUERY,
+            variables: {
+              ...variables,
+              start: dataLength * page,
+            },
+          });
+
+          if (fetchedData[graphQuery].length > 0) {
+            isFetchMore.current = true;
+            const { data: currentData, filteredData } = data;
+            const newData = fetchedData[graphQuery] as DataType[];
+
+            if (isMounted.current)
+              setData((prevState) => ({
+                ...prevState,
+                data: filteredData ? currentData : [...currentData, ...newData],
+                filteredData: filteredData
+                  ? [
+                      ...filteredData,
+                      ...newData.filter(filterFn(currentSearch.current)),
+                    ]
+                  : filteredData,
+              }));
+          } else isFetchMore.current = false;
+
+          if (isMounted.current) setLoading(false);
+
+          isFetching.current = true;
+        }
+      } catch (error) {
+        if (isMounted) {
+          setError(true);
+          setLoading(false);
+        }
+      }
+    }, 1500);
+
+    return () => {
+      clearTimeout(timeout);
+    };
+  }, [page]);
+
+  useEffect(() => {
+    return () => {
+      isMounted.current = false;
+    };
+  }, []);
 
   const lastElementRef = useCallback(
-    (node) => {
-      if (loading || !isFetchMore.current) return;
+    (node: HTMLButtonElement) => {
+      if (loading || !isFetchMore.current || isFetchCanceled.current) {
+        isFetchCanceled.current = false;
+        return;
+      }
       if (observer.current) observer.current.disconnect();
       observer.current = new IntersectionObserver((entries) => {
         if (entries[0].isIntersecting && isMounted.current) {
@@ -50,76 +118,17 @@ const useDataManagement = (
     [loading]
   );
 
-  useEffect(() => {
-    setLoading(true);
-    timeout.current = setTimeout(() => {
-      (async function () {
-        try {
-          if (isFetching.current) {
-            isFetching.current = false;
-            const { data: fetchData } = await apolloClient.query({
-              query: QUERY,
-              variables: {
-                ...variables,
-                start: dataLength * page,
-              },
-            });
-
-            if (fetchData[graphQuery].length > 0) {
-              isFetchMore.current = true;
-              const { data: currentData, filteredData } = data;
-              const newData = fetchData[graphQuery] as any[];
-
-              setData((prevState) => ({
-                ...prevState,
-                data: [...currentData, ...newData],
-                filteredData:
-                  filteredData.length > 0
-                    ? [
-                        ...filteredData,
-                        ...filteredData.filter(filterFn(currentSearch.current)),
-                      ]
-                    : filteredData,
-              }));
-            } else {
-              isFetchMore.current = false;
-            }
-
-            if (isMounted.current) setLoading(false);
-
-            isFetching.current = true;
-          }
-        } catch (error) {
-          if (isMounted) {
-            setError(true);
-            setLoading(false);
-          }
-        }
-      })();
-    }, 1500);
-  }, [page]);
-
-  useEffect(() => {
-    return () => {
-      isMounted.current = false;
-      clearTimeout(timeout.current);
-    };
-  }, []);
-
   const filterFn = ({ search, category, source }: CurrentSearchType) => (
     value: DataType
   ) => {
-    const searchRegex = RegExp(`${search}`, 'gi');
-    const categoryRegex = RegExp(`${category}`, 'gi');
-    const sourceRegex = RegExp(`${source}`, 'gi');
+    const isMatch =
+      (value.title.includes(search) ||
+        value.link.includes(search) ||
+        value.description?.includes(search)) &&
+      value.category?.name.includes(category) &&
+      value.source?.name.includes(source);
 
-    return (
-      value.title.match(searchRegex) ||
-      value.link.match(searchRegex) ||
-      value.description?.match(searchRegex) ||
-      value.category?.name.match(categoryRegex) ||
-      value.source?.name.match(sourceRegex)
-    );
+    return isMatch;
   };
 
   const onChange = (
@@ -127,23 +136,25 @@ const useDataManagement = (
     keyword: string
   ) => {
     currentSearch.current[name] = keyword;
+    const { data: currentData } = data;
+    let filteredData = currentData.filter(filterFn(currentSearch.current));
+    setData((prevState) => ({ ...prevState, filteredData }));
+  };
 
-    let filtered: Array<any>;
-    const { data: currentData, filteredData } = data;
-    if (filteredData.length === 0)
-      filtered = currentData.filter(filterFn(currentSearch.current));
-    else filtered = filteredData.filter(filterFn(currentSearch.current));
-
-    setData((prevState) => ({ ...prevState, filteredData: filtered }));
+  const clearData = () => {
+    isFetchCanceled.current = true;
+    currentSearch.current = defaultSearch;
+    setData((prevState) => ({ ...prevState, filteredData: null }));
   };
 
   return {
     data,
-    setData,
+    clearData,
     onChange,
     loading,
     error,
     lastElementRef,
+    currentSearch: currentSearch.current,
   };
 };
 

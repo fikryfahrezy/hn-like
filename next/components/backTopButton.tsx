@@ -7,8 +7,6 @@ import style from '../styles/BackToTop.module.css';
  * https://codepen.io/alexandr-kazakov/pen/yMRPOR?editors=1010
  */
 const BackTopButton = () => {
-  // NOTE: Scroll to Top Component
-  // https://codepen.io/alexandr-kazakov/pen/yMRPOR?editors=1010
   const isMounted = useRef(false);
   const [showButton, setShowButton] = useState(false);
 

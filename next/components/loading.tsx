@@ -5,7 +5,7 @@ const Loading = () => (
     speed={1}
     width={476}
     height={124}
-    style={{ maxWidth: '800px' }}
+    style={{ maxWidth: '800px', marginTop: '1em' }}
     viewBox="0 0 476 124"
     backgroundColor="#f3f3f3"
     foregroundColor="#ecebeb"

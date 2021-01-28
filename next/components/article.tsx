@@ -8,15 +8,10 @@ import { DataType } from '../types/types';
 
 type ArticleProps = {
   article: DataType;
-  lastElementRef?: (node: any) => void;
 };
 
-const Article = ({ article, lastElementRef }: ArticleProps) => (
-  <article
-    id={article.slug}
-    className={style.article}
-    ref={lastElementRef && lastElementRef}
-  >
+const Article = ({ article }: ArticleProps) => (
+  <article id={article.slug} className={style.article}>
     <h2>
       <a href={article.link} target="_blank">
         {article.title}

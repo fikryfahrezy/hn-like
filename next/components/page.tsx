@@ -34,11 +34,12 @@ const Page = ({
 }: PageProps) => {
   const {
     data: { data, filteredData },
-    setData,
+    clearData,
     onChange,
     error,
     lastElementRef,
     loading,
+    currentSearch,
   } = useDataManagement(
     propsData,
     graphQueryName,
@@ -68,34 +69,41 @@ const Page = ({
               name="search"
               type="text"
               placeholder="..."
+              value={!filteredData ? '' : currentSearch.search}
               onChange={({ target }) => onChange('search', target.value)}
             />
           </div>
-          <Select onChange={onChange} items={categories} name="category" />
+          <Select
+            onChange={onChange}
+            items={categories}
+            name="category"
+            currentSelected={currentSearch.category}
+          />
           {sources && (
-            <Select onChange={onChange} items={sources} name="source" />
+            <Select
+              onChange={onChange}
+              items={sources}
+              name="source"
+              currentSelected={currentSearch.source}
+            />
           )}
           <div className={style.searchItem}>
-            <button
-              onClick={() =>
-                setData((prevState) => ({ ...prevState, filteredData: [] }))
-              }
-            >
-              Clear
-            </button>
+            <button onClick={() => clearData()}>Clear</button>
           </div>
         </div>
         <main className={style.main}>
-          <Articles
-            filteredData={filteredData}
-            data={data}
-            lastElementRef={lastElementRef}
-          />
-          {loading && <Loading />}
-          {error && <Error />}
+          <Articles filteredData={filteredData} data={data} />
         </main>
+        <span
+          ref={lastElementRef}
+          style={{ visibility: 'hidden', display: 'block' }}
+        >
+          Load more ...
+        </span>
+        {loading && <Loading />}
+        {error && <Error />}
         <BackTopButton />
-      </div>
+      </div>{' '}
     </div>
   );
 };
