@@ -1,18 +1,12 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { ApolloClient, DocumentNode } from '@apollo/client';
 import { initializeApollo } from '../lib/apolloClient';
-import { DataType } from '../types/types';
-
-type CurrentSearchType = {
-  search: string;
-  category: string;
-  source: string;
-};
-
-type DataStateType = {
-  data: DataType[];
-  filteredData: DataType[] | null;
-};
+import {
+  DataType,
+  CurrentSearchType,
+  DataStateType,
+  FilterChangeType,
+} from '../types/types';
 
 // NOTE: Infinity Scroll References
 // https://github.com/WebDevSimplified/React-Infinite-Scrolling
@@ -40,7 +34,6 @@ const useDataManagement = (
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
   const observer = useRef<IntersectionObserver>(null);
-  const isFetching = useRef(true);
   const isMounted = useRef(true);
   const isFetchMore = useRef(true);
   const isFetchCanceled = useRef(false);
@@ -48,46 +41,52 @@ const useDataManagement = (
 
   useEffect(() => {
     setLoading(true);
-    const timeout = setTimeout(async function () {
-      try {
-        if (isFetching.current) {
-          isFetching.current = false;
-          const { data: fetchedData } = await apolloClient.query({
-            query: QUERY,
-            variables: {
-              ...variables,
-              start: dataLength * page,
-            },
-          });
+    const timeout = setTimeout(function () {
+      (async () => {
+        let isFetching = true;
 
-          if (fetchedData[graphQuery].length > 0) {
-            isFetchMore.current = true;
-            const { data: currentData, filteredData } = data;
-            const newData = fetchedData[graphQuery] as DataType[];
+        try {
+          if (isFetching) {
+            isFetching = false;
+            const { data: fetchedData } = await apolloClient.query({
+              query: QUERY,
+              variables: {
+                ...variables,
+                start: dataLength * page,
+              },
+            });
 
-            if (isMounted.current)
-              setData((prevState) => ({
-                ...prevState,
-                data: filteredData ? currentData : [...currentData, ...newData],
-                filteredData: filteredData
-                  ? [
-                      ...filteredData,
-                      ...newData.filter(filterFn(currentSearch.current)),
-                    ]
-                  : filteredData,
-              }));
-          } else isFetchMore.current = false;
+            if (fetchedData[graphQuery].length > 0) {
+              isFetchMore.current = true;
+              const { data: currentData, filteredData } = data;
+              const newData = fetchedData[graphQuery] as DataType[];
 
-          if (isMounted.current) setLoading(false);
+              if (isMounted.current)
+                setData((prevState) => ({
+                  ...prevState,
+                  data: filteredData
+                    ? currentData
+                    : [...currentData, ...newData],
+                  filteredData: filteredData
+                    ? [
+                        ...filteredData,
+                        ...newData.filter(filterFn(currentSearch.current)),
+                      ]
+                    : filteredData,
+                }));
+            } else isFetchMore.current = false;
 
-          isFetching.current = true;
+            if (isMounted.current) setLoading(false);
+
+            isFetching = true;
+          }
+        } catch (error) {
+          if (isMounted) {
+            setError(true);
+            setLoading(false);
+          }
         }
-      } catch (error) {
-        if (isMounted) {
-          setError(true);
-          setLoading(false);
-        }
-      }
+      })();
     }, 1500);
 
     return () => {
@@ -103,7 +102,9 @@ const useDataManagement = (
 
   const lastElementRef = useCallback(
     (node: HTMLButtonElement) => {
-      if (loading || !isFetchMore.current || isFetchCanceled.current) {
+      const isReturn =
+        loading || !isFetchMore.current || isFetchCanceled.current;
+      if (isReturn) {
         isFetchCanceled.current = false;
         return;
       }
@@ -131,13 +132,10 @@ const useDataManagement = (
     return isMatch;
   };
 
-  const onChange = (
-    name: 'search' | 'category' | 'source',
-    keyword: string
-  ) => {
+  const onChange = ({ name, keyword }: FilterChangeType) => {
     currentSearch.current[name] = keyword;
     const { data: currentData } = data;
-    let filteredData = currentData.filter(filterFn(currentSearch.current));
+    const filteredData = currentData.filter(filterFn(currentSearch.current));
     setData((prevState) => ({ ...prevState, filteredData }));
   };
 

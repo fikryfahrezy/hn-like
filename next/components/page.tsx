@@ -1,10 +1,8 @@
-import React from 'react';
 import Link from 'next/link';
 import { DocumentNode } from '@apollo/client';
 import style from '../styles/Page.module.css';
-import Articles from './articles';
 import Header from './header';
-import Select from './select';
+import Main from './main';
 import Loading from './loading';
 import Error from './error';
 import BackTopButton from './backTopButton';
@@ -33,7 +31,7 @@ const Page = ({
   pageDescription,
 }: PageProps) => {
   const {
-    data: { data, filteredData },
+    data: currentData,
     clearData,
     onChange,
     error,
@@ -57,43 +55,14 @@ const Page = ({
           </a>
         </Link>
         <Header pageTitle={pageTitle} pageDescription={pageDescription} />
-        <div
-          className={
-            sources ? style.searchWithSource : style.searchWithoutSource
-          }
-        >
-          <div className={style.searchItem}>
-            <label htmlFor="search">Search</label>
-            <input
-              id="search"
-              name="search"
-              type="text"
-              placeholder="..."
-              value={!filteredData ? '' : currentSearch.search}
-              onChange={({ target }) => onChange('search', target.value)}
-            />
-          </div>
-          <Select
-            onChange={onChange}
-            items={categories}
-            name="category"
-            currentSelected={currentSearch.category}
-          />
-          {sources && (
-            <Select
-              onChange={onChange}
-              items={sources}
-              name="source"
-              currentSelected={currentSearch.source}
-            />
-          )}
-          <div className={style.searchItem}>
-            <button onClick={() => clearData()}>Clear</button>
-          </div>
-        </div>
-        <main className={style.main}>
-          <Articles filteredData={filteredData} data={data} />
-        </main>
+        <Main
+          currentData={currentData}
+          currentSearch={currentSearch}
+          categories={categories}
+          sources={sources}
+          clearData={clearData}
+          onChange={onChange}
+        />
         <span
           ref={lastElementRef}
           style={{ visibility: 'hidden', display: 'block' }}

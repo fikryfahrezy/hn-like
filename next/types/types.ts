@@ -16,3 +16,19 @@ export type DataType = {
   category: AdditionalDataType;
   source?: AdditionalDataType;
 };
+
+export type CurrentSearchType = {
+  search: string;
+  category: string;
+  source: string;
+};
+
+export type DataStateType = {
+  data: DataType[];
+  filteredData: DataType[] | null;
+};
+
+export type FilterChangeType = {
+  name: 'search' | 'category' | 'source';
+  keyword: string;
+};
