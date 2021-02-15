@@ -42,20 +42,19 @@ const useDataManagement = (
   useEffect(() => {
     setLoading(true);
     const timeout = setTimeout(function () {
-      (async () => {
-        let isFetching = true;
-
-        try {
-          if (isFetching) {
-            isFetching = false;
-            const { data: fetchedData } = await apolloClient.query({
-              query: QUERY,
-              variables: {
-                ...variables,
-                start: dataLength * page,
-              },
-            });
-
+      let isFetching = true;
+      if (isFetching) {
+        isFetching = false;
+        apolloClient
+          .query({
+            query: QUERY,
+            variables: {
+              ...variables,
+              start: dataLength * page,
+            },
+          })
+          .then((res) => {
+            const { data: fetchedData } = res;
             if (fetchedData[graphQuery].length > 0) {
               isFetchMore.current = true;
               const { data: currentData, filteredData } = data;
@@ -79,14 +78,14 @@ const useDataManagement = (
             if (isMounted.current) setLoading(false);
 
             isFetching = true;
-          }
-        } catch (error) {
-          if (isMounted) {
-            setError(true);
-            setLoading(false);
-          }
-        }
-      })();
+          })
+          .catch(() => {
+            if (isMounted) {
+              setError(true);
+              setLoading(false);
+            }
+          });
+      }
     }, 1500);
 
     return () => {
@@ -111,6 +110,7 @@ const useDataManagement = (
       if (observer.current) observer.current.disconnect();
       observer.current = new IntersectionObserver((entries) => {
         if (entries[0].isIntersecting && isMounted.current) {
+          console.log('hi');
           setPage((prevState) => ++prevState);
         }
       });
