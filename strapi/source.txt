@@ -10,3 +10,6 @@ https://stackoverflow.com/questions/36361860/change-sequence-name-in-postgresql
 https://github.com/strapi/strapi/issues/5671
 https://github.com/strapi/strapi/issues/3891
 https://github.com/strapi/strapi/issues/171
+
+`docker-compose up` fails in WSL 2 environment
+https://github.com/docker/compose/issues/7495

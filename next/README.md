@@ -1,30 +1,76 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Why did you render
 
-## Getting Started
+This is a simple example of how to use [why-did-you-render](https://github.com/welldone-software/why-did-you-render).
 
-First, run the development server:
+The header component will rerender despite the state staying the same.
 
-```bash
-npm run dev
-# or
-yarn dev
+You can see `why-did-you-render` console logs about this redundant re-render in the developer console.
+
+## Installation guide
+
+1. add `why-did-you-render` to the project by running:
+
+   ```
+   yarn add @welldone-software/why-did-you-render
+   ```
+
+1. Create `scripts/wdyr.js` with the code:
+
+   ```jsx
+   import React from 'react'
+
+   if (process.env.NODE_ENV === 'development') {
+     if (typeof window !== 'undefined') {
+       const whyDidYouRender = require('@welldone-software/why-did-you-render')
+       whyDidYouRender(React, {
+         trackAllPureComponents: true,
+       })
+     }
+   }
+   ```
+
+1. Import `scripts/wdyr.js` as the first import of `_app`.
+
+1. Make sure that [`react-preset`](https://babeljs.io/docs/en/babel-preset-react) uses `@welldone-software/why-did-you-render` to import the monkey patched `React` with WDYR, by modifying `next/babel` in `babel.config.js`:
+
+```jsx
+// babel.config.js
+module.exports = function (api) {
+  const isServer = api.caller((caller) => caller?.isServer)
+  const isCallerDevelopment = api.caller((caller) => caller?.isDev)
+
+  const presets = [
+    [
+      'next/babel',
+      {
+        'preset-react': {
+          importSource:
+            !isServer && isCallerDevelopment
+              ? '@welldone-software/why-did-you-render'
+              : 'react',
+        },
+      },
+    ],
+  ]
+
+  return { presets }
+}
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Deploy your own
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
 
-## Learn More
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-why-did-you-render&project-name=with-why-did-you-render&repository-name=with-why-did-you-render)
 
-To learn more about Next.js, take a look at the following resources:
+## How to use
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```bash
+npx create-next-app --example with-why-did-you-render with-why-did-you-render-app
+# or
+yarn create next-app --example with-why-did-you-render with-why-did-you-render-app
+```
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Deploy it to the cloud with [Vercel](https://vercel.com/new?filter=next.js&utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).

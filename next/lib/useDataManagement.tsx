@@ -132,18 +132,21 @@ const useDataManagement = (
     return isMatch;
   };
 
-  const onChange = ({ name, keyword }: FilterChangeType) => {
-    currentSearch.current[name] = keyword;
-    const { data: currentData } = data;
-    const filteredData = currentData.filter(filterFn(currentSearch.current));
-    setData((prevState) => ({ ...prevState, filteredData }));
-  };
+  const onChange = useCallback(
+    ({ name, keyword }: FilterChangeType) => {
+      currentSearch.current[name] = keyword;
+      const { data: currentData } = data;
+      const filteredData = currentData.filter(filterFn(currentSearch.current));
+      setData((prevState) => ({ ...prevState, filteredData }));
+    },
+    [data]
+  );
 
-  const clearData = () => {
+  const clearData = useCallback(() => {
     isFetchCanceled.current = true;
     currentSearch.current = defaultSearch;
     setData((prevState) => ({ ...prevState, filteredData: null }));
-  };
+  }, [data]);
 
   return {
     data,
